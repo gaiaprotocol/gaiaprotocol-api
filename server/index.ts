@@ -28,9 +28,16 @@ export default {
 
 		if (url.pathname === "/test") {
 			try {
-				const image1Response = await env.ASSETS.fetch("/test/background.png");
-				const image2Response = await env.ASSETS.fetch("/test/body.png");
-				const image3Response = await env.ASSETS.fetch("/test/head.png");
+				const bgUrl = new URL("/test/background.png", request.url);
+				const bodyUrl = new URL("/test/body.png", request.url);
+				const headUrl = new URL("/test/head.png", request.url);
+
+				const [image1Response, image2Response, image3Response] = await Promise
+					.all([
+						env.ASSETS.fetch(bgUrl),
+						env.ASSETS.fetch(bodyUrl),
+						env.ASSETS.fetch(headUrl),
+					]);
 
 				if (!image1Response.ok || !image2Response.ok || !image3Response.ok) {
 					throw new Error("Failed to fetch images from ASSETS");
