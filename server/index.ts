@@ -92,7 +92,7 @@ export default {
 				blendImage(composite, new Uint8Array(rgbaBody));
 				blendImage(composite, new Uint8Array(rgbaHead));
 
-				const outBuffer = UPNG.encode([composite.buffer], width, height, 8);
+				const outBuffer = UPNG.encode([composite.buffer], width, height, 0);
 
 				await env.GOD_IMAGES_BUCKET.put("test.png", outBuffer);
 
