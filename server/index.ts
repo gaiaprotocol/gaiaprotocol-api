@@ -114,7 +114,7 @@ export default {
 				return new Response("ok", { status: 200 });
 			} catch (error) {
 				console.error("Error processing images:", error);
-				return new Response("Internal Server Error", { status: 500 });
+				return new Response(`Error: ${error}`, { status: 500 });
 			}
 		}
 
