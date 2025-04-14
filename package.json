@@ -12,9 +12,11 @@
 	"devDependencies": {
 		"@cloudflare/vitest-pool-workers": "^0.7.5",
 		"@cloudflare/workers-types": "^4.20250310.0",
+		"@types/upng-js": "^2.1.5",
 		"typescript": "^5.5.2",
+		"upng-js": "^2.1.0",
 		"vitest": "~3.0.7",
-		"wrangler": "^4.9.1"
+		"wrangler": "^4.10.0"
 	},
 	"dependencies": {}
 }
