@@ -22,6 +22,28 @@ function blendPixel(
 	return [outR, outG, outB, outAlpha];
 }
 
+function blendImage(base: Uint8Array, overlay: Uint8Array) {
+	for (let i = 0; i < base.length; i += 4) {
+		const [bgR, bgG, bgB, bgA] = [
+			base[i],
+			base[i + 1],
+			base[i + 2],
+			base[i + 3],
+		];
+		const [fgR, fgG, fgB, fgA] = [
+			overlay[i],
+			overlay[i + 1],
+			overlay[i + 2],
+			overlay[i + 3],
+		];
+		const [r, g, b, a] = blendPixel(bgR, bgG, bgB, bgA, fgR, fgG, fgB, fgA);
+		base[i] = r;
+		base[i + 1] = g;
+		base[i + 2] = b;
+		base[i + 3] = a;
+	}
+}
+
 export default {
 	async fetch(request, env, ctx): Promise<Response> {
 		const url = new URL(request.url);
@@ -32,96 +54,52 @@ export default {
 				const bodyUrl = new URL("/test/body.png", request.url);
 				const headUrl = new URL("/test/head.png", request.url);
 
-				const [image1Response, image2Response, image3Response] = await Promise
-					.all([
-						env.ASSETS.fetch(bgUrl),
-						env.ASSETS.fetch(bodyUrl),
-						env.ASSETS.fetch(headUrl),
-					]);
-
-				if (!image1Response.ok || !image2Response.ok || !image3Response.ok) {
+				const [respBg, respBody, respHead] = await Promise.all([
+					env.ASSETS.fetch(bgUrl),
+					env.ASSETS.fetch(bodyUrl),
+					env.ASSETS.fetch(headUrl),
+				]);
+				if (!respBg.ok || !respBody.ok || !respHead.ok) {
 					throw new Error("Failed to fetch images from ASSETS");
 				}
 
-				const [img1Buf, img2Buf, img3Buf] = await Promise.all([
-					image1Response.arrayBuffer(),
-					image2Response.arrayBuffer(),
-					image3Response.arrayBuffer(),
+				const [imgBgBuf, imgBodyBuf, imgHeadBuf] = await Promise.all([
+					respBg.arrayBuffer(),
+					respBody.arrayBuffer(),
+					respHead.arrayBuffer(),
 				]);
 
-				const png1 = UPNG.decode(img1Buf);
-				const png2 = UPNG.decode(img2Buf);
-				const png3 = UPNG.decode(img3Buf);
+				const pngBg = UPNG.decode(imgBgBuf);
+				const pngBody = UPNG.decode(imgBodyBuf);
+				const pngHead = UPNG.decode(imgHeadBuf);
 
-				const rgba1 = UPNG.toRGBA8(png1)[0];
-				const rgba2 = UPNG.toRGBA8(png2)[0];
-				const rgba3 = UPNG.toRGBA8(png3)[0];
+				const rgbaBg = UPNG.toRGBA8(pngBg)[0];
+				const rgbaBody = UPNG.toRGBA8(pngBody)[0];
+				const rgbaHead = UPNG.toRGBA8(pngHead)[0];
 
-				const width = png1.width;
-				const height = png1.height;
-
+				const width = pngBg.width, height = pngBg.height;
 				if (
-					png2.width !== width || png2.height !== height ||
-					png3.width !== width || png3.height !== height
+					pngBody.width !== width || pngBody.height !== height ||
+					pngHead.width !== width || pngHead.height !== height
 				) {
 					throw new Error(
-						"Images have different sizes - implement resize/offset logic.",
+						"Images have different sizes - implement resize logic if needed.",
 					);
 				}
 
-				const composite = new Uint8Array(rgba1);
+				const composite = new Uint8Array(rgbaBg);
 
-				for (let i = 0; i < composite.length; i += 4) {
-					const bgR = composite[i + 0];
-					const bgG = composite[i + 1];
-					const bgB = composite[i + 2];
-					const bgA = composite[i + 3];
-
-					const fgR = (rgba2 as any)[i + 0];
-					const fgG = (rgba2 as any)[i + 1];
-					const fgB = (rgba2 as any)[i + 2];
-					const fgA = (rgba2 as any)[i + 3];
-
-					const [r, g, b, a] = blendPixel(
-						bgR,
-						bgG,
-						bgB,
-						bgA,
-						fgR,
-						fgG,
-						fgB,
-						fgA,
-					);
-
-					const fgR2 = (rgba3 as any)[i + 0];
-					const fgG2 = (rgba3 as any)[i + 1];
-					const fgB2 = (rgba3 as any)[i + 2];
-					const fgA2 = (rgba3 as any)[i + 3];
-					const [r2, g2, b2, a2] = blendPixel(
-						r,
-						g,
-						b,
-						a,
-						fgR2,
-						fgG2,
-						fgB2,
-						fgA2,
-					);
-
-					composite[i + 0] = r2;
-					composite[i + 1] = g2;
-					composite[i + 2] = b2;
-					composite[i + 3] = a2;
-				}
+				blendImage(composite, new Uint8Array(rgbaBody));
+				blendImage(composite, new Uint8Array(rgbaHead));
 
 				const outBuffer = UPNG.encode([composite.buffer], width, height, 8);
 
 				await env.GOD_IMAGES_BUCKET.put("test.png", outBuffer);
 
 				return new Response("ok", { status: 200 });
-			} catch (error) {
-				console.error("Error processing images:", error);
-				return new Response(`Error: ${error}`, { status: 500 });
+			} catch (err) {
+				console.error(err);
+				return new Response(`Error: ${err}`, { status: 500 });
 			}
 		}
 
