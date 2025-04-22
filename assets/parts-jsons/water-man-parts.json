@@ -399,7 +399,7 @@
     }, {
         "name": "Himation",
         "condition": {
-            "trait": "Onepiece",
+            "part": "Onepiece",
             "values": ["None", "White Holder Neck", "Black Holder Neck", "Black Top", "Tatoo", "Oriental", "Blue Layered", "Gold Layered", "Armor", "Blue Suit"]
         },
         "images": [{
@@ -409,7 +409,7 @@
     }, {
         "name": "Cape",
         "condition": {
-            "trait": "Onepiece",
+            "part": "Onepiece",
             "values": ["None", "White Holder Neck", "Black Holder Neck", "Black Top", "Tatoo", "Oriental", "Blue Layered", "Gold Layered", "Armor", "Blue Suit"]
         },
         "images": [{
@@ -419,7 +419,7 @@
     }, {
         "name": "Coat",
         "condition": {
-            "trait": "Onepiece",
+            "part": "Onepiece",
             "values": ["None", "White Holder Neck", "Black Holder Neck", "Black Top", "Tatoo", "Oriental", "Blue Layered", "Gold Layered", "Armor", "Blue Suit"]
         },
         "images": [{
@@ -429,7 +429,7 @@
     }, {
         "name": "Gold King",
         "condition": {
-            "trait": "Onepiece",
+            "part": "Onepiece",
             "values": ["None", "White Holder Neck", "Black Holder Neck", "Black Top", "Tatoo", "Oriental", "Blue Layered", "Gold Layered", "Armor", "Blue Suit"]
         },
         "images": [{
@@ -439,7 +439,7 @@
     }, {
         "name": "Dark Cloak",
         "condition": {
-            "trait": "Onepiece",
+            "part": "Onepiece",
             "values": ["None", "White Holder Neck", "Black Holder Neck", "Black Top", "Tatoo", "Oriental", "Blue Layered", "Gold Layered", "Armor", "Blue Suit"]
         },
         "images": [{
@@ -449,7 +449,7 @@
     }, {
         "name": "Light Cloak",
         "condition": {
-            "trait": "Onepiece",
+            "part": "Onepiece",
             "values": ["None", "White Holder Neck", "Black Holder Neck", "Black Top", "Tatoo", "Oriental", "Blue Layered", "Gold Layered", "Armor", "Blue Suit"]
         },
         "images": [{
@@ -459,7 +459,7 @@
     }, {
         "name": "Chiton",
         "condition": {
-            "trait": "Onepiece",
+            "part": "Onepiece",
             "values": ["None", "White Holder Neck", "Black Holder Neck", "Black Top", "Tatoo", "Oriental", "Blue Layered", "Gold Layered", "Armor", "Blue Suit"]
         },
         "images": [{
@@ -469,7 +469,7 @@
     }, {
         "name": "Tunic",
         "condition": {
-            "trait": "Onepiece",
+            "part": "Onepiece",
             "values": ["None", "White Holder Neck", "Black Holder Neck", "Black Top", "Tatoo", "Oriental", "Blue Layered", "Gold Layered", "Armor", "Blue Suit"]
         },
         "images": [{
@@ -479,7 +479,7 @@
     }, {
         "name": "Neck Guard",
         "condition": {
-            "trait": "Onepiece",
+            "part": "Onepiece",
             "values": ["None", "White Holder Neck", "Black Holder Neck", "Black Top", "Tatoo", "Oriental", "Blue Layered", "Gold Layered", "Armor", "Blue Suit"]
         },
         "images": [{
@@ -489,7 +489,7 @@
     }, {
         "name": "Dark Long Coat",
         "condition": {
-            "trait": "Onepiece",
+            "part": "Onepiece",
             "values": ["None", "White Holder Neck", "Black Holder Neck", "Black Top", "Tatoo", "Oriental", "Blue Layered", "Gold Layered", "Armor", "Blue Suit"]
         },
         "images": [{
@@ -499,7 +499,7 @@
     }, {
         "name": "Light Long Coat",
         "condition": {
-            "trait": "Onepiece",
+            "part": "Onepiece",
             "values": ["None", "White Holder Neck", "Black Holder Neck", "Black Top", "Tatoo", "Oriental", "Blue Layered", "Gold Layered", "Armor", "Blue Suit"]
         },
         "images": [{
@@ -705,7 +705,7 @@
     [{
         "name": "Black Back Hair",
         "condition": {
-            "trait": "Hair",
+            "part": "Hair",
             "values": ["Black Hair"]
         },
         "images": [{
@@ -715,7 +715,7 @@
     }, {
         "name": "White Back Hair",
         "condition": {
-            "trait": "Hair",
+            "part": "Hair",
             "values": ["White Hair"]
         },
         "images": [{
@@ -725,7 +725,7 @@
     }, {
         "name": "Half Back Hair",
         "condition": {
-            "trait": "Hair",
+            "part": "Hair",
             "values": ["Half Hair"]
         },
         "images": [{

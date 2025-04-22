@@ -483,7 +483,7 @@
     }, {
         "name": "Black Lich Lace",
         "condition": {
-            "trait": "Onepiece",
+            "part": "Onepiece",
             "values": ["White Himation", "Black Himation", "Black Tank Top", "White Tank Top", "Black Holder Neck", "White Holder Neck", "White Blouse", "White Chiton", "Black Chiton", "Mixed Bra", "Gold Bra", "Dark Triagle", "White Triagle", "Black Top", "Wild Top", "Mixed Top", "White Lace", "Black Lace", "Black Harnes", "Gold Harnes"]
         },
         "images": [{
@@ -493,7 +493,7 @@
     }, {
         "name": "White Lich Lace",
         "condition": {
-            "trait": "Onepiece",
+            "part": "Onepiece",
             "values": ["White Himation", "Black Himation", "Black Tank Top", "White Tank Top", "Black Holder Neck", "White Holder Neck", "White Blouse", "White Chiton", "Black Chiton", "Mixed Bra", "Gold Bra", "Dark Triagle", "White Triagle", "Black Top", "Wild Top", "Mixed Top", "White Lace", "Black Lace", "Black Harnes", "Gold Harnes"]
         },
         "images": [{
@@ -503,7 +503,7 @@
     }, {
         "name": "Black Cloak",
         "condition": {
-            "trait": "Onepiece",
+            "part": "Onepiece",
             "values": ["White Himation", "Black Himation", "Black Tank Top", "White Tank Top", "Black Holder Neck", "White Holder Neck", "White Blouse", "White Chiton", "Black Chiton", "Mixed Bra", "Gold Bra", "Dark Triagle", "White Triagle", "Black Top", "Wild Top", "Mixed Top", "White Lace", "Black Lace", "Black Harnes", "Gold Harnes"]
         },
         "images": [{
@@ -513,7 +513,7 @@
     }, {
         "name": "White Pallium",
         "condition": {
-            "trait": "Onepiece",
+            "part": "Onepiece",
             "values": ["White Himation", "Black Himation", "Black Tank Top", "White Tank Top", "Black Holder Neck", "White Holder Neck", "White Blouse", "White Chiton", "Black Chiton", "Mixed Bra", "Gold Bra", "Dark Triagle", "White Triagle", "Black Top", "Wild Top", "Mixed Top", "White Lace", "Black Lace", "Black Harnes", "Gold Harnes"]
         },
         "images": [{
@@ -523,7 +523,7 @@
     }, {
         "name": "Gold Pallium",
         "condition": {
-            "trait": "Onepiece",
+            "part": "Onepiece",
             "values": ["White Himation", "Black Himation", "Black Tank Top", "White Tank Top", "Black Holder Neck", "White Holder Neck", "White Blouse", "White Chiton", "Black Chiton", "Mixed Bra", "Gold Bra", "Dark Triagle", "White Triagle", "Black Top", "Wild Top", "Mixed Top", "White Lace", "Black Lace", "Black Harnes", "Gold Harnes"]
         },
         "images": [{
@@ -533,7 +533,7 @@
     }, {
         "name": "Blue Himation",
         "condition": {
-            "trait": "Onepiece",
+            "part": "Onepiece",
             "values": ["White Himation", "Black Himation", "Black Tank Top", "White Tank Top", "Black Holder Neck", "White Holder Neck", "White Blouse", "White Chiton", "Black Chiton", "Mixed Bra", "Gold Bra", "Dark Triagle", "White Triagle", "Black Top", "Wild Top", "Mixed Top", "White Lace", "Black Lace", "Black Harnes", "Gold Harnes"]
         },
         "images": [{
@@ -543,7 +543,7 @@
     }, {
         "name": "White Cloak",
         "condition": {
-            "trait": "Onepiece",
+            "part": "Onepiece",
             "values": ["White Himation", "Black Himation", "Black Tank Top", "White Tank Top", "Black Holder Neck", "White Holder Neck", "White Blouse", "White Chiton", "Black Chiton", "Mixed Bra", "Gold Bra", "Dark Triagle", "White Triagle", "Black Top", "Wild Top", "Mixed Top", "White Lace", "Black Lace", "Black Harnes", "Gold Harnes"]
         },
         "images": [{
@@ -553,7 +553,7 @@
     }, {
         "name": "Black Gown",
         "condition": {
-            "trait": "Onepiece",
+            "part": "Onepiece",
             "values": ["White Himation", "Black Himation", "Black Tank Top", "White Tank Top", "Black Holder Neck", "White Holder Neck", "White Blouse", "White Chiton", "Black Chiton", "Mixed Bra", "Gold Bra", "Dark Triagle", "White Triagle", "Black Top", "Wild Top", "Mixed Top", "White Lace", "Black Lace", "Black Harnes", "Gold Harnes"]
         },
         "images": [{
@@ -563,7 +563,7 @@
     }, {
         "name": "White Gown",
         "condition": {
-            "trait": "Onepiece",
+            "part": "Onepiece",
             "values": ["White Himation", "Black Himation", "Black Tank Top", "White Tank Top", "Black Holder Neck", "White Holder Neck", "White Blouse", "White Chiton", "Black Chiton", "Mixed Bra", "Gold Bra", "Dark Triagle", "White Triagle", "Black Top", "Wild Top", "Mixed Top", "White Lace", "Black Lace", "Black Harnes", "Gold Harnes"]
         },
         "images": [{
@@ -573,7 +573,7 @@
     }, {
         "name": "Black Queen",
         "condition": {
-            "trait": "Onepiece",
+            "part": "Onepiece",
             "values": ["White Himation", "Black Himation", "Black Tank Top", "White Tank Top", "Black Holder Neck", "White Holder Neck", "White Blouse", "White Chiton", "Black Chiton", "Mixed Bra", "Gold Bra", "Dark Triagle", "White Triagle", "Black Top", "Wild Top", "Mixed Top", "White Lace", "Black Lace", "Black Harnes", "Gold Harnes"]
         },
         "images": [{
@@ -583,7 +583,7 @@
     }, {
         "name": "White Queen",
         "condition": {
-            "trait": "Onepiece",
+            "part": "Onepiece",
             "values": ["White Himation", "Black Himation", "Black Tank Top", "White Tank Top", "Black Holder Neck", "White Holder Neck", "White Blouse", "White Chiton", "Black Chiton", "Mixed Bra", "Gold Bra", "Dark Triagle", "White Triagle", "Black Top", "Wild Top", "Mixed Top", "White Lace", "Black Lace", "Black Harnes", "Gold Harnes"]
         },
         "images": [{
@@ -741,7 +741,7 @@
     [{
         "name": "Black Long",
         "condition": {
-            "trait": "Hair",
+            "part": "Hair",
             "values": ["Black Long", "Black Long Wavy", "Black Bob", "Black Lady", "Black Bangs", "Black Wavy Hime", "Black Hime", "Black Shaggy", "Black Water", "Black Gyaru"]
         },
         "images": [{
@@ -751,7 +751,7 @@
     }, {
         "name": "Black Long Wavy",
         "condition": {
-            "trait": "Hair",
+            "part": "Hair",
             "values": ["Black Long", "Black Long Wavy", "Black Bob", "Black Lady", "Black Bangs", "Black Wavy Hime", "Black Hime", "Black Shaggy", "Black Water", "Black Gyaru"]
         },
         "images": [{
@@ -761,7 +761,7 @@
     }, {
         "name": "Black Short Wavy",
         "condition": {
-            "trait": "Hair",
+            "part": "Hair",
             "values": ["Black Long", "Black Long Wavy", "Black Bob", "Black Lady", "Black Bangs", "Black Wavy Hime", "Black Hime", "Black Shaggy", "Black Water", "Black Gyaru"]
         },
         "images": [{
@@ -771,7 +771,7 @@
     }, {
         "name": "Black Bob",
         "condition": {
-            "trait": "Hair",
+            "part": "Hair",
             "values": ["Black Long", "Black Long Wavy", "Black Bob", "Black Lady", "Black Bangs", "Black Wavy Hime", "Black Hime", "Black Shaggy", "Black Water", "Black Gyaru"]
         },
         "images": [{
@@ -781,7 +781,7 @@
     }, {
         "name": "Black Natural",
         "condition": {
-            "trait": "Hair",
+            "part": "Hair",
             "values": ["Black Long", "Black Long Wavy", "Black Bob", "Black Lady", "Black Bangs", "Black Wavy Hime", "Black Hime", "Black Shaggy", "Black Water", "Black Gyaru"]
         },
         "images": [{
@@ -791,7 +791,7 @@
     }, {
         "name": "Black Flowy",
         "condition": {
-            "trait": "Hair",
+            "part": "Hair",
             "values": ["Black Long", "Black Long Wavy", "Black Bob", "Black Lady", "Black Bangs", "Black Wavy Hime", "Black Hime", "Black Shaggy", "Black Water", "Black Gyaru"]
         },
         "images": [{
@@ -801,7 +801,7 @@
     }, {
         "name": "Black Pixie",
         "condition": {
-            "trait": "Hair",
+            "part": "Hair",
             "values": ["Black Long", "Black Long Wavy", "Black Bob", "Black Lady", "Black Bangs", "Black Wavy Hime", "Black Hime", "Black Shaggy", "Black Water", "Black Gyaru"]
         },
         "images": [{
@@ -811,7 +811,7 @@
     }, {
         "name": "Black Water",
         "condition": {
-            "trait": "Hair",
+            "part": "Hair",
             "values": ["Black Long", "Black Long Wavy", "Black Bob", "Black Lady", "Black Bangs", "Black Wavy Hime", "Black Hime", "Black Shaggy", "Black Water", "Black Gyaru"]
         },
         "images": [{
@@ -821,7 +821,7 @@
     }, {
         "name": "Black Twin Tail",
         "condition": {
-            "trait": "Hair",
+            "part": "Hair",
             "values": ["Black Long", "Black Long Wavy", "Black Bob", "Black Lady", "Black Bangs", "Black Wavy Hime", "Black Hime", "Black Shaggy", "Black Water", "Black Gyaru"]
         },
         "images": [{
@@ -831,7 +831,7 @@
     }, {
         "name": "White Long",
         "condition": {
-            "trait": "Hair",
+            "part": "Hair",
             "values": ["White Long", "White Long Wavy", "White Bob", "White Lady", "White Bangs", "White Wavy Hime", "White Hime", "White Shaggy", "White Water", "White Gyaru"]
         },
         "images": [{
@@ -841,7 +841,7 @@
     }, {
         "name": "White Long Wavy",
         "condition": {
-            "trait": "Hair",
+            "part": "Hair",
             "values": ["White Long", "White Long Wavy", "White Bob", "White Lady", "White Bangs", "White Wavy Hime", "White Hime", "White Shaggy", "White Water", "White Gyaru"]
         },
         "images": [{
@@ -851,7 +851,7 @@
     }, {
         "name": "White Short Wavy",
         "condition": {
-            "trait": "Hair",
+            "part": "Hair",
             "values": ["White Long", "White Long Wavy", "White Bob", "White Lady", "White Bangs", "White Wavy Hime", "White Hime", "White Shaggy", "White Water", "White Gyaru"]
         },
         "images": [{
@@ -861,7 +861,7 @@
     }, {
         "name": "White Bob",
         "condition": {
-            "trait": "Hair",
+            "part": "Hair",
             "values": ["White Long", "White Long Wavy", "White Bob", "White Lady", "White Bangs", "White Wavy Hime", "White Hime", "White Shaggy", "White Water", "White Gyaru"]
         },
         "images": [{
@@ -871,7 +871,7 @@
     }, {
         "name": "White Natural",
         "condition": {
-            "trait": "Hair",
+            "part": "Hair",
             "values": ["White Long", "White Long Wavy", "White Bob", "White Lady", "White Bangs", "White Wavy Hime", "White Hime", "White Shaggy", "White Water", "White Gyaru"]
         },
         "images": [{
@@ -881,7 +881,7 @@
     }, {
         "name": "White Flowy",
         "condition": {
-            "trait": "Hair",
+            "part": "Hair",
             "values": ["White Long", "White Long Wavy", "White Bob", "White Lady", "White Bangs", "White Wavy Hime", "White Hime", "White Shaggy", "White Water", "White Gyaru"]
         },
         "images": [{
@@ -891,7 +891,7 @@
     }, {
         "name": "White Pixie",
         "condition": {
-            "trait": "Hair",
+            "part": "Hair",
             "values": ["White Long", "White Long Wavy", "White Bob", "White Lady", "White Bangs", "White Wavy Hime", "White Hime", "White Shaggy", "White Water", "White Gyaru"]
         },
         "images": [{
@@ -901,7 +901,7 @@
     }, {
         "name": "White Water",
         "condition": {
-            "trait": "Hair",
+            "part": "Hair",
             "values": ["White Long", "White Long Wavy", "White Bob", "White Lady", "White Bangs", "White Wavy Hime", "White Hime", "White Shaggy", "White Water", "White Gyaru"]
         },
         "images": [{
@@ -911,7 +911,7 @@
     }, {
         "name": "White Twin Tail",
         "condition": {
-            "trait": "Hair",
+            "part": "Hair",
             "values": ["White Long", "White Long Wavy", "White Bob", "White Lady", "White Bangs", "White Wavy Hime", "White Hime", "White Shaggy", "White Water", "White Gyaru"]
         },
         "images": [{
@@ -921,7 +921,7 @@
     }, {
         "name": "Long Wavy",
         "condition": {
-            "trait": "Hair",
+            "part": "Hair",
             "values": ["Long Wavy"]
         },
         "images": [{
