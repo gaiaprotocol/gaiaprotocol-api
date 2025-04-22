@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "@commonmodule/ts": "^0.1.9",
+    "sharp": "^0.34.1"
+  }
+}
