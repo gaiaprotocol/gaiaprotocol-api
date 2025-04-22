@@ -2,22 +2,22 @@ import fs from "fs";
 import path from "path";
 import sharp from "sharp";
 import fireManParts from "./parts-jsons/fire-man-parts.json" with {
-  type: "json",
+  type: "json"
 };
 import fireWomanParts from "./parts-jsons/fire-woman-parts.json" with {
-  type: "json",
+  type: "json"
 };
 import stoneManParts from "./parts-jsons/stone-man-parts.json" with {
-  type: "json",
+  type: "json"
 };
 import stoneWomanParts from "./parts-jsons/stone-woman-parts.json" with {
-  type: "json",
+  type: "json"
 };
 import waterManParts from "./parts-jsons/water-man-parts.json" with {
-  type: "json",
+  type: "json"
 };
 import waterWomanParts from "./parts-jsons/water-woman-parts.json" with {
-  type: "json",
+  type: "json"
 };
 
 interface SpritesheetData {
@@ -36,7 +36,7 @@ interface SpritesheetData {
   };
 }
 
-const orders: { [path: string]: number } = {};
+const availableFiles: { [path: string]: boolean } = {};
 for (
   const p of [
     ...stoneManParts,
@@ -46,7 +46,7 @@ for (
   for (const part of p.parts) {
     if (part.images) {
       for (const frame of part.images) {
-        orders["stone/" + frame.path] = frame.order;
+        availableFiles["stone/" + frame.path] = true;
       }
     }
   }
@@ -60,7 +60,7 @@ for (
   for (const part of p.parts) {
     if (part.images) {
       for (const frame of part.images) {
-        orders["fire/" + frame.path] = frame.order;
+        availableFiles["fire/" + frame.path] = true;
       }
     }
   }
@@ -74,7 +74,7 @@ for (
   for (const part of p.parts) {
     if (part.images) {
       for (const frame of part.images) {
-        orders["water/" + frame.path] = frame.order;
+        availableFiles["water/" + frame.path] = true;
       }
     }
   }
@@ -90,7 +90,7 @@ async function processImages() {
     const files = fs.readdirSync(directoryPath, { recursive: true });
     for (const file of files) {
       if (typeof file === "string") {
-        if (orders[file] !== undefined) {
+        if (availableFiles[file]) {
           const sharpImage = sharp(path.join(directoryPath, file));
 
           if (!fs.existsSync(path.join(outputPath, path.dirname(file)))) {
