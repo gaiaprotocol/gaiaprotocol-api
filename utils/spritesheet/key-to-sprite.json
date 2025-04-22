@@ -1,0 +1,2280 @@
+{
+  "Fire": {
+    "Man": {
+      "background.png": {
+        "frame": "part-0",
+        "zIndex": 0
+      },
+      "man/0wing/0.png": {
+        "frame": "part-2",
+        "zIndex": 100
+      },
+      "man/1bhair/1.png": {
+        "frame": "part-3",
+        "zIndex": 200
+      },
+      "man/1bhair/10.png": {
+        "frame": "part-4",
+        "zIndex": 200
+      },
+      "man/1bhair/11.png": {
+        "frame": "part-5",
+        "zIndex": 200
+      },
+      "man/1bhair/2.png": {
+        "frame": "part-6",
+        "zIndex": 200
+      },
+      "man/1bhair/3.png": {
+        "frame": "part-7",
+        "zIndex": 200
+      },
+      "man/1bhair/4.png": {
+        "frame": "part-8",
+        "zIndex": 200
+      },
+      "man/1bhair/7.png": {
+        "frame": "part-9",
+        "zIndex": 200
+      },
+      "man/1bhair/9.png": {
+        "frame": "part-10",
+        "zIndex": 200
+      },
+      "man/2body/0.png": {
+        "frame": "part-11",
+        "zIndex": 300
+      },
+      "man/2body/1.png": {
+        "frame": "part-12",
+        "zIndex": 300
+      },
+      "man/2body/2.png": {
+        "frame": "part-13",
+        "zIndex": 300
+      },
+      "man/2body/3.png": {
+        "frame": "part-14",
+        "zIndex": 300
+      },
+      "man/2body/4.png": {
+        "frame": "part-15",
+        "zIndex": 300
+      },
+      "man/2body/5.png": {
+        "frame": "part-16",
+        "zIndex": 300
+      },
+      "man/2body/6.png": {
+        "frame": "part-17",
+        "zIndex": 300
+      },
+      "man/2body/7.png": {
+        "frame": "part-18",
+        "zIndex": 300
+      },
+      "man/2body/8.png": {
+        "frame": "part-19",
+        "zIndex": 300
+      },
+      "man/2body/9.png": {
+        "frame": "part-20",
+        "zIndex": 300
+      },
+      "man/3head/0.png": {
+        "frame": "part-21",
+        "zIndex": 400
+      },
+      "man/3head/1.png": {
+        "frame": "part-22",
+        "zIndex": 400
+      },
+      "man/3head/2.png": {
+        "frame": "part-23",
+        "zIndex": 400
+      },
+      "man/3head/3.png": {
+        "frame": "part-24",
+        "zIndex": 400
+      },
+      "man/3head/4.png": {
+        "frame": "part-25",
+        "zIndex": 400
+      },
+      "man/3head/5.png": {
+        "frame": "part-26",
+        "zIndex": 400
+      },
+      "man/3head/6.png": {
+        "frame": "part-27",
+        "zIndex": 400
+      },
+      "man/3head/7.png": {
+        "frame": "part-28",
+        "zIndex": 400
+      },
+      "man/3head/8.png": {
+        "frame": "part-29",
+        "zIndex": 400
+      },
+      "man/3head/9.png": {
+        "frame": "part-30",
+        "zIndex": 400
+      },
+      "man/4hair/0.png": {
+        "frame": "part-31",
+        "zIndex": 500
+      },
+      "man/4hair/1.png": {
+        "frame": "part-32",
+        "zIndex": 500
+      },
+      "man/4hair/10.png": {
+        "frame": "part-33",
+        "zIndex": 500
+      },
+      "man/4hair/11.png": {
+        "frame": "part-34",
+        "zIndex": 500
+      },
+      "man/4hair/2.png": {
+        "frame": "part-35",
+        "zIndex": 500
+      },
+      "man/4hair/3.png": {
+        "frame": "part-36",
+        "zIndex": 500
+      },
+      "man/4hair/4.png": {
+        "frame": "part-37",
+        "zIndex": 500
+      },
+      "man/4hair/5.png": {
+        "frame": "part-38",
+        "zIndex": 500
+      },
+      "man/4hair/6.png": {
+        "frame": "part-39",
+        "zIndex": 500
+      },
+      "man/4hair/7.png": {
+        "frame": "part-40",
+        "zIndex": 500
+      },
+      "man/4hair/8.png": {
+        "frame": "part-41",
+        "zIndex": 500
+      },
+      "man/4hair/9.png": {
+        "frame": "part-42",
+        "zIndex": 500
+      },
+      "man/5face/0.png": {
+        "frame": "part-43",
+        "zIndex": 600
+      },
+      "man/5face/1.png": {
+        "frame": "part-44",
+        "zIndex": 600
+      },
+      "man/5face/10.png": {
+        "frame": "part-45",
+        "zIndex": 600
+      },
+      "man/5face/11.png": {
+        "frame": "part-46",
+        "zIndex": 600
+      },
+      "man/5face/2.png": {
+        "frame": "part-47",
+        "zIndex": 600
+      },
+      "man/5face/3.png": {
+        "frame": "part-48",
+        "zIndex": 600
+      },
+      "man/5face/4.png": {
+        "frame": "part-49",
+        "zIndex": 600
+      },
+      "man/5face/5.png": {
+        "frame": "part-50",
+        "zIndex": 600
+      },
+      "man/5face/6.png": {
+        "frame": "part-51",
+        "zIndex": 600
+      },
+      "man/5face/7.png": {
+        "frame": "part-52",
+        "zIndex": 600
+      },
+      "man/5face/8.png": {
+        "frame": "part-53",
+        "zIndex": 600
+      },
+      "man/5face/9.png": {
+        "frame": "part-54",
+        "zIndex": 600
+      },
+      "man/6acce/0.png": {
+        "frame": "part-55",
+        "zIndex": 700
+      },
+      "man/6acce/1.png": {
+        "frame": "part-56",
+        "zIndex": 700
+      },
+      "man/6acce/2.png": {
+        "frame": "part-57",
+        "zIndex": 700
+      },
+      "man/6acce/3.png": {
+        "frame": "part-58",
+        "zIndex": 700
+      },
+      "man/6acce/4.png": {
+        "frame": "part-59",
+        "zIndex": 700
+      },
+      "man/6acce/5.png": {
+        "frame": "part-60",
+        "zIndex": 700
+      },
+      "man/6acce/6.png": {
+        "frame": "part-61",
+        "zIndex": 700
+      },
+      "man/6acce/7.png": {
+        "frame": "part-62",
+        "zIndex": 700
+      },
+      "man/6acce/8.png": {
+        "frame": "part-63",
+        "zIndex": 700
+      },
+      "man/7face_effect/10.png": {
+        "frame": "part-64",
+        "zIndex": 800
+      },
+      "man/7face_effect/5.png": {
+        "frame": "part-65",
+        "zIndex": 800
+      },
+      "man/7face_effect/7.png": {
+        "frame": "part-66",
+        "zIndex": 800
+      },
+      "man/7face_effect/8.png": {
+        "frame": "part-67",
+        "zIndex": 800
+      }
+    },
+    "Woman": {
+      "background.png": {
+        "frame": "part-0",
+        "zIndex": 0
+      },
+      "woman/0wing/0.png": {
+        "frame": "part-68",
+        "zIndex": 100
+      },
+      "woman/1bhair/0.png": {
+        "frame": "part-69",
+        "zIndex": 200
+      },
+      "woman/1bhair/1.png": {
+        "frame": "part-70",
+        "zIndex": 200
+      },
+      "woman/1bhair/10.png": {
+        "frame": "part-71",
+        "zIndex": 200
+      },
+      "woman/1bhair/11.png": {
+        "frame": "part-72",
+        "zIndex": 200
+      },
+      "woman/1bhair/2.png": {
+        "frame": "part-73",
+        "zIndex": 200
+      },
+      "woman/1bhair/3.png": {
+        "frame": "part-74",
+        "zIndex": 200
+      },
+      "woman/1bhair/4.png": {
+        "frame": "part-75",
+        "zIndex": 200
+      },
+      "woman/1bhair/7.png": {
+        "frame": "part-76",
+        "zIndex": 200
+      },
+      "woman/1bhair/8.png": {
+        "frame": "part-77",
+        "zIndex": 200
+      },
+      "woman/1bhair/9.png": {
+        "frame": "part-78",
+        "zIndex": 200
+      },
+      "woman/2body/0.png": {
+        "frame": "part-79",
+        "zIndex": 300
+      },
+      "woman/2body/1.png": {
+        "frame": "part-80",
+        "zIndex": 300
+      },
+      "woman/2body/2.png": {
+        "frame": "part-81",
+        "zIndex": 300
+      },
+      "woman/2body/3.png": {
+        "frame": "part-82",
+        "zIndex": 300
+      },
+      "woman/2body/4.png": {
+        "frame": "part-83",
+        "zIndex": 300
+      },
+      "woman/2body/5.png": {
+        "frame": "part-84",
+        "zIndex": 300
+      },
+      "woman/2body/6.png": {
+        "frame": "part-85",
+        "zIndex": 300
+      },
+      "woman/2body/7.png": {
+        "frame": "part-86",
+        "zIndex": 300
+      },
+      "woman/2body/8.png": {
+        "frame": "part-87",
+        "zIndex": 300
+      },
+      "woman/2body/9.png": {
+        "frame": "part-88",
+        "zIndex": 300
+      },
+      "woman/3head/0.png": {
+        "frame": "part-89",
+        "zIndex": 400
+      },
+      "woman/3head/1.png": {
+        "frame": "part-90",
+        "zIndex": 400
+      },
+      "woman/3head/2.png": {
+        "frame": "part-91",
+        "zIndex": 400
+      },
+      "woman/3head/3.png": {
+        "frame": "part-92",
+        "zIndex": 400
+      },
+      "woman/3head/4.png": {
+        "frame": "part-93",
+        "zIndex": 400
+      },
+      "woman/3head/5.png": {
+        "frame": "part-94",
+        "zIndex": 400
+      },
+      "woman/3head/6.png": {
+        "frame": "part-95",
+        "zIndex": 400
+      },
+      "woman/3head/7.png": {
+        "frame": "part-96",
+        "zIndex": 400
+      },
+      "woman/3head/8.png": {
+        "frame": "part-97",
+        "zIndex": 400
+      },
+      "woman/3head/9.png": {
+        "frame": "part-98",
+        "zIndex": 400
+      },
+      "woman/4hair/0.png": {
+        "frame": "part-99",
+        "zIndex": 500
+      },
+      "woman/4hair/1.png": {
+        "frame": "part-100",
+        "zIndex": 500
+      },
+      "woman/4hair/10.png": {
+        "frame": "part-101",
+        "zIndex": 500
+      },
+      "woman/4hair/11.png": {
+        "frame": "part-102",
+        "zIndex": 500
+      },
+      "woman/4hair/2.png": {
+        "frame": "part-103",
+        "zIndex": 500
+      },
+      "woman/4hair/3.png": {
+        "frame": "part-104",
+        "zIndex": 500
+      },
+      "woman/4hair/4.png": {
+        "frame": "part-105",
+        "zIndex": 500
+      },
+      "woman/4hair/5.png": {
+        "frame": "part-106",
+        "zIndex": 500
+      },
+      "woman/4hair/6.png": {
+        "frame": "part-107",
+        "zIndex": 500
+      },
+      "woman/4hair/7.png": {
+        "frame": "part-108",
+        "zIndex": 500
+      },
+      "woman/4hair/8.png": {
+        "frame": "part-109",
+        "zIndex": 500
+      },
+      "woman/4hair/9.png": {
+        "frame": "part-110",
+        "zIndex": 500
+      },
+      "woman/5face/0.png": {
+        "frame": "part-111",
+        "zIndex": 600
+      },
+      "woman/5face/1.png": {
+        "frame": "part-112",
+        "zIndex": 600
+      },
+      "woman/5face/10.png": {
+        "frame": "part-113",
+        "zIndex": 600
+      },
+      "woman/5face/11.png": {
+        "frame": "part-114",
+        "zIndex": 600
+      },
+      "woman/5face/12.png": {
+        "frame": "part-115",
+        "zIndex": 600
+      },
+      "woman/5face/2.png": {
+        "frame": "part-116",
+        "zIndex": 600
+      },
+      "woman/5face/3.png": {
+        "frame": "part-117",
+        "zIndex": 600
+      },
+      "woman/5face/4.png": {
+        "frame": "part-118",
+        "zIndex": 600
+      },
+      "woman/5face/5.png": {
+        "frame": "part-119",
+        "zIndex": 600
+      },
+      "woman/5face/6.png": {
+        "frame": "part-120",
+        "zIndex": 600
+      },
+      "woman/5face/7.png": {
+        "frame": "part-121",
+        "zIndex": 600
+      },
+      "woman/5face/8.png": {
+        "frame": "part-122",
+        "zIndex": 600
+      },
+      "woman/5face/9.png": {
+        "frame": "part-123",
+        "zIndex": 600
+      },
+      "woman/6acce/0.png": {
+        "frame": "part-124",
+        "zIndex": 700
+      },
+      "woman/6acce/1.png": {
+        "frame": "part-125",
+        "zIndex": 700
+      },
+      "woman/6acce/2.png": {
+        "frame": "part-126",
+        "zIndex": 700
+      },
+      "woman/6acce/3.png": {
+        "frame": "part-127",
+        "zIndex": 700
+      },
+      "woman/6acce/4.png": {
+        "frame": "part-128",
+        "zIndex": 700
+      },
+      "woman/6acce/5.png": {
+        "frame": "part-129",
+        "zIndex": 700
+      },
+      "woman/6acce/6.png": {
+        "frame": "part-130",
+        "zIndex": 700
+      },
+      "woman/6acce/7.png": {
+        "frame": "part-131",
+        "zIndex": 700
+      },
+      "woman/6acce/8.png": {
+        "frame": "part-132",
+        "zIndex": 700
+      },
+      "woman/7face_effect/10.png": {
+        "frame": "part-133",
+        "zIndex": 800
+      },
+      "woman/7face_effect/11.png": {
+        "frame": "part-134",
+        "zIndex": 800
+      },
+      "woman/7face_effect/12.png": {
+        "frame": "part-135",
+        "zIndex": 800
+      },
+      "woman/7face_effect/7.png": {
+        "frame": "part-136",
+        "zIndex": 800
+      }
+    }
+  },
+  "Stone": {
+    "Man": {
+      "background.png": {
+        "frame": "part-1",
+        "zIndex": 100
+      },
+      "man/1-back-acce/0.png": {
+        "frame": "part-137",
+        "zIndex": 200
+      },
+      "man/1-back-acce/1.png": {
+        "frame": "part-138",
+        "zIndex": 200
+      },
+      "man/1-back-acce/10.png": {
+        "frame": "part-139",
+        "zIndex": 200
+      },
+      "man/1-back-acce/11.png": {
+        "frame": "part-140",
+        "zIndex": 200
+      },
+      "man/1-back-acce/2.png": {
+        "frame": "part-141",
+        "zIndex": 200
+      },
+      "man/1-back-acce/3.png": {
+        "frame": "part-142",
+        "zIndex": 200
+      },
+      "man/1-back-acce/4.png": {
+        "frame": "part-143",
+        "zIndex": 200
+      },
+      "man/1-back-acce/5.png": {
+        "frame": "part-144",
+        "zIndex": 200
+      },
+      "man/1-back-acce/6.png": {
+        "frame": "part-145",
+        "zIndex": 200
+      },
+      "man/1-back-acce/7.png": {
+        "frame": "part-146",
+        "zIndex": 200
+      },
+      "man/1-back-acce/8.png": {
+        "frame": "part-147",
+        "zIndex": 200
+      },
+      "man/1-back-acce/9.png": {
+        "frame": "part-148",
+        "zIndex": 200
+      },
+      "man/2-outfit/0.png": {
+        "frame": "part-149",
+        "zIndex": 300
+      },
+      "man/2-outfit/1.png": {
+        "frame": "part-150",
+        "zIndex": 300
+      },
+      "man/2-outfit/10.png": {
+        "frame": "part-151",
+        "zIndex": 300
+      },
+      "man/2-outfit/11.png": {
+        "frame": "part-152",
+        "zIndex": 300
+      },
+      "man/2-outfit/2.png": {
+        "frame": "part-153",
+        "zIndex": 300
+      },
+      "man/2-outfit/3.png": {
+        "frame": "part-154",
+        "zIndex": 300
+      },
+      "man/2-outfit/4.png": {
+        "frame": "part-155",
+        "zIndex": 300
+      },
+      "man/2-outfit/5.png": {
+        "frame": "part-156",
+        "zIndex": 300
+      },
+      "man/2-outfit/6.png": {
+        "frame": "part-157",
+        "zIndex": 300
+      },
+      "man/2-outfit/7.png": {
+        "frame": "part-158",
+        "zIndex": 300
+      },
+      "man/2-outfit/8.png": {
+        "frame": "part-159",
+        "zIndex": 300
+      },
+      "man/2-outfit/9.png": {
+        "frame": "part-160",
+        "zIndex": 300
+      },
+      "man/3-face/0.png": {
+        "frame": "part-161",
+        "zIndex": 400
+      },
+      "man/3-face/1.png": {
+        "frame": "part-162",
+        "zIndex": 400
+      },
+      "man/3-face/10.png": {
+        "frame": "part-163",
+        "zIndex": 400
+      },
+      "man/3-face/11.png": {
+        "frame": "part-164",
+        "zIndex": 400
+      },
+      "man/3-face/12.png": {
+        "frame": "part-165",
+        "zIndex": 400
+      },
+      "man/3-face/13.png": {
+        "frame": "part-166",
+        "zIndex": 400
+      },
+      "man/3-face/2.png": {
+        "frame": "part-167",
+        "zIndex": 400
+      },
+      "man/3-face/3.png": {
+        "frame": "part-168",
+        "zIndex": 400
+      },
+      "man/3-face/4.png": {
+        "frame": "part-169",
+        "zIndex": 400
+      },
+      "man/3-face/5.png": {
+        "frame": "part-170",
+        "zIndex": 400
+      },
+      "man/3-face/6.png": {
+        "frame": "part-171",
+        "zIndex": 400
+      },
+      "man/3-face/7.png": {
+        "frame": "part-172",
+        "zIndex": 400
+      },
+      "man/3-face/8.png": {
+        "frame": "part-173",
+        "zIndex": 400
+      },
+      "man/3-face/9.png": {
+        "frame": "part-174",
+        "zIndex": 400
+      },
+      "man/4-hair/0.png": {
+        "frame": "part-175",
+        "zIndex": 500
+      },
+      "man/4-hair/1.png": {
+        "frame": "part-176",
+        "zIndex": 500
+      },
+      "man/4-hair/10.png": {
+        "frame": "part-177",
+        "zIndex": 500
+      },
+      "man/4-hair/11.png": {
+        "frame": "part-178",
+        "zIndex": 500
+      },
+      "man/4-hair/2.png": {
+        "frame": "part-179",
+        "zIndex": 500
+      },
+      "man/4-hair/3.png": {
+        "frame": "part-180",
+        "zIndex": 500
+      },
+      "man/4-hair/4.png": {
+        "frame": "part-181",
+        "zIndex": 500
+      },
+      "man/4-hair/5.png": {
+        "frame": "part-182",
+        "zIndex": 500
+      },
+      "man/4-hair/6.png": {
+        "frame": "part-183",
+        "zIndex": 500
+      },
+      "man/4-hair/7.png": {
+        "frame": "part-184",
+        "zIndex": 500
+      },
+      "man/4-hair/8.png": {
+        "frame": "part-185",
+        "zIndex": 500
+      },
+      "man/4-hair/9.png": {
+        "frame": "part-186",
+        "zIndex": 500
+      },
+      "man/5-front-acce/0.png": {
+        "frame": "part-187",
+        "zIndex": 600
+      },
+      "man/5-front-acce/1.png": {
+        "frame": "part-188",
+        "zIndex": 600
+      },
+      "man/5-front-acce/10.png": {
+        "frame": "part-189",
+        "zIndex": 600
+      },
+      "man/5-front-acce/11.png": {
+        "frame": "part-190",
+        "zIndex": 600
+      },
+      "man/5-front-acce/12.png": {
+        "frame": "part-191",
+        "zIndex": 600
+      },
+      "man/5-front-acce/2.png": {
+        "frame": "part-192",
+        "zIndex": 600
+      },
+      "man/5-front-acce/3.png": {
+        "frame": "part-193",
+        "zIndex": 600
+      },
+      "man/5-front-acce/4.png": {
+        "frame": "part-194",
+        "zIndex": 600
+      },
+      "man/5-front-acce/5.png": {
+        "frame": "part-195",
+        "zIndex": 600
+      },
+      "man/5-front-acce/6.png": {
+        "frame": "part-196",
+        "zIndex": 600
+      },
+      "man/5-front-acce/7.png": {
+        "frame": "part-197",
+        "zIndex": 600
+      },
+      "man/5-front-acce/8.png": {
+        "frame": "part-198",
+        "zIndex": 600
+      },
+      "man/5-front-acce/9.png": {
+        "frame": "part-199",
+        "zIndex": 600
+      },
+      "man/6-hand/0.png": {
+        "frame": "part-200",
+        "zIndex": 700
+      },
+      "man/6-hand/1.png": {
+        "frame": "part-201",
+        "zIndex": 700
+      },
+      "man/6-hand/2.png": {
+        "frame": "part-202",
+        "zIndex": 700
+      },
+      "man/6-hand/3.png": {
+        "frame": "part-203",
+        "zIndex": 700
+      },
+      "man/6-hand/4.png": {
+        "frame": "part-204",
+        "zIndex": 700
+      },
+      "man/6-hand/5.png": {
+        "frame": "part-205",
+        "zIndex": 700
+      },
+      "man/6-hand/6.png": {
+        "frame": "part-206",
+        "zIndex": 700
+      },
+      "man/6-hand/7.png": {
+        "frame": "part-207",
+        "zIndex": 700
+      }
+    },
+    "Woman": {
+      "background.png": {
+        "frame": "part-1",
+        "zIndex": 100
+      },
+      "woman/1-back-acce/0.png": {
+        "frame": "part-208",
+        "zIndex": 200
+      },
+      "woman/1-back-acce/1.png": {
+        "frame": "part-209",
+        "zIndex": 200
+      },
+      "woman/1-back-acce/10.png": {
+        "frame": "part-210",
+        "zIndex": 200
+      },
+      "woman/1-back-acce/11.png": {
+        "frame": "part-211",
+        "zIndex": 200
+      },
+      "woman/1-back-acce/2.png": {
+        "frame": "part-212",
+        "zIndex": 200
+      },
+      "woman/1-back-acce/3.png": {
+        "frame": "part-213",
+        "zIndex": 200
+      },
+      "woman/1-back-acce/4.png": {
+        "frame": "part-214",
+        "zIndex": 200
+      },
+      "woman/1-back-acce/5.png": {
+        "frame": "part-215",
+        "zIndex": 200
+      },
+      "woman/1-back-acce/6.png": {
+        "frame": "part-216",
+        "zIndex": 200
+      },
+      "woman/1-back-acce/7.png": {
+        "frame": "part-217",
+        "zIndex": 200
+      },
+      "woman/1-back-acce/8.png": {
+        "frame": "part-218",
+        "zIndex": 200
+      },
+      "woman/1-back-acce/9.png": {
+        "frame": "part-219",
+        "zIndex": 200
+      },
+      "woman/2-back-hair/0.png": {
+        "frame": "part-220",
+        "zIndex": 300
+      },
+      "woman/2-back-hair/10.png": {
+        "frame": "part-221",
+        "zIndex": 300
+      },
+      "woman/2-back-hair/11.png": {
+        "frame": "part-222",
+        "zIndex": 300
+      },
+      "woman/2-back-hair/12.png": {
+        "frame": "part-223",
+        "zIndex": 300
+      },
+      "woman/2-back-hair/13.png": {
+        "frame": "part-224",
+        "zIndex": 300
+      },
+      "woman/2-back-hair/2.png": {
+        "frame": "part-225",
+        "zIndex": 300
+      },
+      "woman/2-back-hair/4.png": {
+        "frame": "part-226",
+        "zIndex": 300
+      },
+      "woman/2-back-hair/5.png": {
+        "frame": "part-227",
+        "zIndex": 300
+      },
+      "woman/2-back-hair/6.png": {
+        "frame": "part-228",
+        "zIndex": 300
+      },
+      "woman/2-back-hair/7.png": {
+        "frame": "part-229",
+        "zIndex": 300
+      },
+      "woman/2-back-hair/9.png": {
+        "frame": "part-230",
+        "zIndex": 300
+      },
+      "woman/3-outfit/0.png": {
+        "frame": "part-231",
+        "zIndex": 400
+      },
+      "woman/3-outfit/1.png": {
+        "frame": "part-232",
+        "zIndex": 400
+      },
+      "woman/3-outfit/10.png": {
+        "frame": "part-233",
+        "zIndex": 400
+      },
+      "woman/3-outfit/11.png": {
+        "frame": "part-234",
+        "zIndex": 400
+      },
+      "woman/3-outfit/2.png": {
+        "frame": "part-235",
+        "zIndex": 400
+      },
+      "woman/3-outfit/3.png": {
+        "frame": "part-236",
+        "zIndex": 400
+      },
+      "woman/3-outfit/4.png": {
+        "frame": "part-237",
+        "zIndex": 400
+      },
+      "woman/3-outfit/5.png": {
+        "frame": "part-238",
+        "zIndex": 400
+      },
+      "woman/3-outfit/6.png": {
+        "frame": "part-239",
+        "zIndex": 400
+      },
+      "woman/3-outfit/7.png": {
+        "frame": "part-240",
+        "zIndex": 400
+      },
+      "woman/3-outfit/8.png": {
+        "frame": "part-241",
+        "zIndex": 400
+      },
+      "woman/3-outfit/9.png": {
+        "frame": "part-242",
+        "zIndex": 400
+      },
+      "woman/4-face/0.png": {
+        "frame": "part-243",
+        "zIndex": 500
+      },
+      "woman/4-face/1.png": {
+        "frame": "part-244",
+        "zIndex": 500
+      },
+      "woman/4-face/10.png": {
+        "frame": "part-245",
+        "zIndex": 500
+      },
+      "woman/4-face/11.png": {
+        "frame": "part-246",
+        "zIndex": 500
+      },
+      "woman/4-face/12.png": {
+        "frame": "part-247",
+        "zIndex": 500
+      },
+      "woman/4-face/2.png": {
+        "frame": "part-248",
+        "zIndex": 500
+      },
+      "woman/4-face/3.png": {
+        "frame": "part-249",
+        "zIndex": 500
+      },
+      "woman/4-face/4.png": {
+        "frame": "part-250",
+        "zIndex": 500
+      },
+      "woman/4-face/5.png": {
+        "frame": "part-251",
+        "zIndex": 500
+      },
+      "woman/4-face/6.png": {
+        "frame": "part-252",
+        "zIndex": 500
+      },
+      "woman/4-face/7.png": {
+        "frame": "part-253",
+        "zIndex": 500
+      },
+      "woman/4-face/8.png": {
+        "frame": "part-254",
+        "zIndex": 500
+      },
+      "woman/4-face/9.png": {
+        "frame": "part-255",
+        "zIndex": 500
+      },
+      "woman/5-hair/0.png": {
+        "frame": "part-256",
+        "zIndex": 600
+      },
+      "woman/5-hair/1.png": {
+        "frame": "part-257",
+        "zIndex": 600
+      },
+      "woman/5-hair/10.png": {
+        "frame": "part-258",
+        "zIndex": 600
+      },
+      "woman/5-hair/11.png": {
+        "frame": "part-259",
+        "zIndex": 600
+      },
+      "woman/5-hair/12.png": {
+        "frame": "part-260",
+        "zIndex": 600
+      },
+      "woman/5-hair/13.png": {
+        "frame": "part-261",
+        "zIndex": 600
+      },
+      "woman/5-hair/2.png": {
+        "frame": "part-262",
+        "zIndex": 600
+      },
+      "woman/5-hair/3.png": {
+        "frame": "part-263",
+        "zIndex": 600
+      },
+      "woman/5-hair/4.png": {
+        "frame": "part-264",
+        "zIndex": 600
+      },
+      "woman/5-hair/5.png": {
+        "frame": "part-265",
+        "zIndex": 600
+      },
+      "woman/5-hair/6.png": {
+        "frame": "part-266",
+        "zIndex": 600
+      },
+      "woman/5-hair/7.png": {
+        "frame": "part-267",
+        "zIndex": 600
+      },
+      "woman/5-hair/8.png": {
+        "frame": "part-268",
+        "zIndex": 600
+      },
+      "woman/5-hair/9.png": {
+        "frame": "part-269",
+        "zIndex": 600
+      },
+      "woman/6-front-acce/0.png": {
+        "frame": "part-270",
+        "zIndex": 700
+      },
+      "woman/6-front-acce/1.png": {
+        "frame": "part-271",
+        "zIndex": 700
+      },
+      "woman/6-front-acce/10.png": {
+        "frame": "part-272",
+        "zIndex": 700
+      },
+      "woman/6-front-acce/11.png": {
+        "frame": "part-273",
+        "zIndex": 700
+      },
+      "woman/6-front-acce/2.png": {
+        "frame": "part-274",
+        "zIndex": 700
+      },
+      "woman/6-front-acce/3.png": {
+        "frame": "part-275",
+        "zIndex": 700
+      },
+      "woman/6-front-acce/4.png": {
+        "frame": "part-276",
+        "zIndex": 700
+      },
+      "woman/6-front-acce/5.png": {
+        "frame": "part-277",
+        "zIndex": 700
+      },
+      "woman/6-front-acce/6.png": {
+        "frame": "part-278",
+        "zIndex": 700
+      },
+      "woman/6-front-acce/7.png": {
+        "frame": "part-279",
+        "zIndex": 700
+      },
+      "woman/6-front-acce/8.png": {
+        "frame": "part-280",
+        "zIndex": 700
+      },
+      "woman/6-front-acce/9.png": {
+        "frame": "part-281",
+        "zIndex": 700
+      },
+      "woman/7-hand/0.png": {
+        "frame": "part-282",
+        "zIndex": 800
+      },
+      "woman/7-hand/1.png": {
+        "frame": "part-283",
+        "zIndex": 800
+      },
+      "woman/7-hand/2.png": {
+        "frame": "part-284",
+        "zIndex": 800
+      },
+      "woman/7-hand/3.png": {
+        "frame": "part-285",
+        "zIndex": 800
+      },
+      "woman/7-hand/4.png": {
+        "frame": "part-286",
+        "zIndex": 800
+      },
+      "woman/7-hand/5.png": {
+        "frame": "part-287",
+        "zIndex": 800
+      },
+      "woman/7-hand/6.png": {
+        "frame": "part-288",
+        "zIndex": 800
+      },
+      "woman/7-hand/7.png": {
+        "frame": "part-289",
+        "zIndex": 800
+      }
+    }
+  },
+  "Water": {
+    "Man": {
+      "man/acce/0.png": {
+        "frame": "part-290",
+        "zIndex": 900
+      },
+      "man/acce/1.png": {
+        "frame": "part-291",
+        "zIndex": 900
+      },
+      "man/acce/10.png": {
+        "frame": "part-292",
+        "zIndex": 750
+      },
+      "man/acce/11.png": {
+        "frame": "part-293",
+        "zIndex": 900
+      },
+      "man/acce/12.png": {
+        "frame": "part-294",
+        "zIndex": 900
+      },
+      "man/acce/13.png": {
+        "frame": "part-295",
+        "zIndex": 900
+      },
+      "man/acce/14.png": {
+        "frame": "part-296",
+        "zIndex": 750
+      },
+      "man/acce/15.png": {
+        "frame": "part-297",
+        "zIndex": 750
+      },
+      "man/acce/16.png": {
+        "frame": "part-298",
+        "zIndex": 750
+      },
+      "man/acce/17.png": {
+        "frame": "part-299",
+        "zIndex": 750
+      },
+      "man/acce/18.png": {
+        "frame": "part-300",
+        "zIndex": 750
+      },
+      "man/acce/2.png": {
+        "frame": "part-301",
+        "zIndex": 900
+      },
+      "man/acce/3.png": {
+        "frame": "part-302",
+        "zIndex": 900
+      },
+      "man/acce/4.png": {
+        "frame": "part-303",
+        "zIndex": 900
+      },
+      "man/acce/5.png": {
+        "frame": "part-304",
+        "zIndex": 900
+      },
+      "man/acce/6.png": {
+        "frame": "part-305",
+        "zIndex": 900
+      },
+      "man/acce/7.png": {
+        "frame": "part-306",
+        "zIndex": 900
+      },
+      "man/acce/8.png": {
+        "frame": "part-307",
+        "zIndex": 900
+      },
+      "man/acce/9.png": {
+        "frame": "part-308",
+        "zIndex": 900
+      },
+      "man/background/0.png": {
+        "frame": "part-309",
+        "zIndex": 100
+      },
+      "man/background/1.png": {
+        "frame": "part-310",
+        "zIndex": 100
+      },
+      "man/background/2.png": {
+        "frame": "part-311",
+        "zIndex": 100
+      },
+      "man/background/3.png": {
+        "frame": "part-312",
+        "zIndex": 100
+      },
+      "man/background/4.png": {
+        "frame": "part-313",
+        "zIndex": 100
+      },
+      "man/background/5.png": {
+        "frame": "part-314",
+        "zIndex": 100
+      },
+      "man/background/6.png": {
+        "frame": "part-315",
+        "zIndex": 100
+      },
+      "man/background/7.png": {
+        "frame": "part-316",
+        "zIndex": 100
+      },
+      "man/background/8.png": {
+        "frame": "part-317",
+        "zIndex": 100
+      },
+      "man/background/9.png": {
+        "frame": "part-318",
+        "zIndex": 100
+      },
+      "man/body/0.png": {
+        "frame": "part-319",
+        "zIndex": 300
+      },
+      "man/body/1.png": {
+        "frame": "part-320",
+        "zIndex": 300
+      },
+      "man/eye/0.png": {
+        "frame": "part-321",
+        "zIndex": 500
+      },
+      "man/eye/1.png": {
+        "frame": "part-322",
+        "zIndex": 500
+      },
+      "man/eye/10.png": {
+        "frame": "part-323",
+        "zIndex": 500
+      },
+      "man/eye/11.png": {
+        "frame": "part-324",
+        "zIndex": 500
+      },
+      "man/eye/12.png": {
+        "frame": "part-325",
+        "zIndex": 500
+      },
+      "man/eye/13.png": {
+        "frame": "part-326",
+        "zIndex": 500
+      },
+      "man/eye/14.png": {
+        "frame": "part-327",
+        "zIndex": 500
+      },
+      "man/eye/15.png": {
+        "frame": "part-328",
+        "zIndex": 500
+      },
+      "man/eye/16.png": {
+        "frame": "part-329",
+        "zIndex": 500
+      },
+      "man/eye/17.png": {
+        "frame": "part-330",
+        "zIndex": 500
+      },
+      "man/eye/18.png": {
+        "frame": "part-331",
+        "zIndex": 500
+      },
+      "man/eye/19.png": {
+        "frame": "part-332",
+        "zIndex": 500
+      },
+      "man/eye/2.png": {
+        "frame": "part-333",
+        "zIndex": 500
+      },
+      "man/eye/3.png": {
+        "frame": "part-334",
+        "zIndex": 500
+      },
+      "man/eye/4.png": {
+        "frame": "part-335",
+        "zIndex": 500
+      },
+      "man/eye/5.png": {
+        "frame": "part-336",
+        "zIndex": 500
+      },
+      "man/eye/6.png": {
+        "frame": "part-337",
+        "zIndex": 500
+      },
+      "man/eye/7.png": {
+        "frame": "part-338",
+        "zIndex": 500
+      },
+      "man/eye/8.png": {
+        "frame": "part-339",
+        "zIndex": 500
+      },
+      "man/eye/9.png": {
+        "frame": "part-340",
+        "zIndex": 500
+      },
+      "man/inner/0.png": {
+        "frame": "part-341",
+        "zIndex": 600
+      },
+      "man/inner/1.png": {
+        "frame": "part-342",
+        "zIndex": 600
+      },
+      "man/inner/2.png": {
+        "frame": "part-343",
+        "zIndex": 600
+      },
+      "man/inner/3.png": {
+        "frame": "part-344",
+        "zIndex": 600
+      },
+      "man/inner/4.png": {
+        "frame": "part-345",
+        "zIndex": 600
+      },
+      "man/inner/5.png": {
+        "frame": "part-346",
+        "zIndex": 600
+      },
+      "man/inner/6.png": {
+        "frame": "part-347",
+        "zIndex": 600
+      },
+      "man/inner/7.png": {
+        "frame": "part-348",
+        "zIndex": 600
+      },
+      "man/inner/8.png": {
+        "frame": "part-349",
+        "zIndex": 600
+      },
+      "man/inner/9.png": {
+        "frame": "part-350",
+        "zIndex": 600
+      },
+      "man/mouth/0.png": {
+        "frame": "part-351",
+        "zIndex": 400
+      },
+      "man/mouth/1.png": {
+        "frame": "part-352",
+        "zIndex": 400
+      },
+      "man/mouth/10.png": {
+        "frame": "part-353",
+        "zIndex": 400
+      },
+      "man/mouth/11.png": {
+        "frame": "part-354",
+        "zIndex": 400
+      },
+      "man/mouth/12.png": {
+        "frame": "part-355",
+        "zIndex": 400
+      },
+      "man/mouth/2.png": {
+        "frame": "part-356",
+        "zIndex": 400
+      },
+      "man/mouth/3.png": {
+        "frame": "part-357",
+        "zIndex": 400
+      },
+      "man/mouth/4.png": {
+        "frame": "part-358",
+        "zIndex": 400
+      },
+      "man/mouth/5.png": {
+        "frame": "part-359",
+        "zIndex": 400
+      },
+      "man/mouth/6.png": {
+        "frame": "part-360",
+        "zIndex": 400
+      },
+      "man/mouth/7.png": {
+        "frame": "part-361",
+        "zIndex": 400
+      },
+      "man/mouth/8.png": {
+        "frame": "part-362",
+        "zIndex": 400
+      },
+      "man/mouth/9.png": {
+        "frame": "part-363",
+        "zIndex": 400
+      },
+      "man/onepiece/0.png": {
+        "frame": "part-364",
+        "zIndex": 600
+      },
+      "man/onepiece/1.png": {
+        "frame": "part-365",
+        "zIndex": 600
+      },
+      "man/onepiece/2.png": {
+        "frame": "part-366",
+        "zIndex": 600
+      },
+      "man/onepiece/3.png": {
+        "frame": "part-367",
+        "zIndex": 600
+      },
+      "man/onepiece/4.png": {
+        "frame": "part-368",
+        "zIndex": 600
+      },
+      "man/onepiece/5.png": {
+        "frame": "part-369",
+        "zIndex": 600
+      },
+      "man/outer/0.png": {
+        "frame": "part-370",
+        "zIndex": 700
+      },
+      "man/outer/1.png": {
+        "frame": "part-371",
+        "zIndex": 700
+      },
+      "man/outer/10.png": {
+        "frame": "part-372",
+        "zIndex": 700
+      },
+      "man/outer/2.png": {
+        "frame": "part-373",
+        "zIndex": 700
+      },
+      "man/outer/3.png": {
+        "frame": "part-374",
+        "zIndex": 700
+      },
+      "man/outer/4.png": {
+        "frame": "part-375",
+        "zIndex": 700
+      },
+      "man/outer/5.png": {
+        "frame": "part-376",
+        "zIndex": 700
+      },
+      "man/outer/6.png": {
+        "frame": "part-377",
+        "zIndex": 700
+      },
+      "man/outer/7.png": {
+        "frame": "part-378",
+        "zIndex": 700
+      },
+      "man/outer/8.png": {
+        "frame": "part-379",
+        "zIndex": 700
+      },
+      "man/outer/9.png": {
+        "frame": "part-380",
+        "zIndex": 700
+      },
+      "man/back_hair/black/0.png": {
+        "frame": "part-487",
+        "zIndex": 200
+      },
+      "man/back_hair/half/0.png": {
+        "frame": "part-488",
+        "zIndex": 200
+      },
+      "man/back_hair/white/0.png": {
+        "frame": "part-489",
+        "zIndex": 200
+      },
+      "man/hair/black/0.png": {
+        "frame": "part-490",
+        "zIndex": 800
+      },
+      "man/hair/half/0.png": {
+        "frame": "part-491",
+        "zIndex": 800
+      },
+      "man/hair/white/0.png": {
+        "frame": "part-492",
+        "zIndex": 800
+      },
+      "man/hair/whole/0.png": {
+        "frame": "part-493",
+        "zIndex": 800
+      },
+      "man/hair/whole/1.png": {
+        "frame": "part-494",
+        "zIndex": 800
+      },
+      "man/hair/whole/10.png": {
+        "frame": "part-495",
+        "zIndex": 800
+      },
+      "man/hair/whole/11.png": {
+        "frame": "part-496",
+        "zIndex": 800
+      },
+      "man/hair/whole/12.png": {
+        "frame": "part-497",
+        "zIndex": 800
+      },
+      "man/hair/whole/13.png": {
+        "frame": "part-498",
+        "zIndex": 800
+      },
+      "man/hair/whole/14.png": {
+        "frame": "part-499",
+        "zIndex": 800
+      },
+      "man/hair/whole/15.png": {
+        "frame": "part-500",
+        "zIndex": 800
+      },
+      "man/hair/whole/16.png": {
+        "frame": "part-501",
+        "zIndex": 800
+      },
+      "man/hair/whole/17.png": {
+        "frame": "part-502",
+        "zIndex": 800
+      },
+      "man/hair/whole/18.png": {
+        "frame": "part-503",
+        "zIndex": 800
+      },
+      "man/hair/whole/19.png": {
+        "frame": "part-504",
+        "zIndex": 800
+      },
+      "man/hair/whole/2.png": {
+        "frame": "part-505",
+        "zIndex": 800
+      },
+      "man/hair/whole/20.png": {
+        "frame": "part-506",
+        "zIndex": 800
+      },
+      "man/hair/whole/21.png": {
+        "frame": "part-507",
+        "zIndex": 800
+      },
+      "man/hair/whole/22.png": {
+        "frame": "part-508",
+        "zIndex": 800
+      },
+      "man/hair/whole/23.png": {
+        "frame": "part-509",
+        "zIndex": 800
+      },
+      "man/hair/whole/24.png": {
+        "frame": "part-510",
+        "zIndex": 800
+      },
+      "man/hair/whole/25.png": {
+        "frame": "part-511",
+        "zIndex": 800
+      },
+      "man/hair/whole/26.png": {
+        "frame": "part-512",
+        "zIndex": 800
+      },
+      "man/hair/whole/27.png": {
+        "frame": "part-513",
+        "zIndex": 800
+      },
+      "man/hair/whole/3.png": {
+        "frame": "part-514",
+        "zIndex": 800
+      },
+      "man/hair/whole/4.png": {
+        "frame": "part-515",
+        "zIndex": 800
+      },
+      "man/hair/whole/5.png": {
+        "frame": "part-516",
+        "zIndex": 800
+      },
+      "man/hair/whole/6.png": {
+        "frame": "part-517",
+        "zIndex": 800
+      },
+      "man/hair/whole/7.png": {
+        "frame": "part-518",
+        "zIndex": 800
+      },
+      "man/hair/whole/8.png": {
+        "frame": "part-519",
+        "zIndex": 800
+      },
+      "man/hair/whole/9.png": {
+        "frame": "part-520",
+        "zIndex": 800
+      }
+    },
+    "Woman": {
+      "woman/acce/0.png": {
+        "frame": "part-381",
+        "zIndex": 900
+      },
+      "woman/acce/1.png": {
+        "frame": "part-382",
+        "zIndex": 900
+      },
+      "woman/acce/10.png": {
+        "frame": "part-383",
+        "zIndex": 750
+      },
+      "woman/acce/11.png": {
+        "frame": "part-384",
+        "zIndex": 900
+      },
+      "woman/acce/12.png": {
+        "frame": "part-385",
+        "zIndex": 900
+      },
+      "woman/acce/13.png": {
+        "frame": "part-386",
+        "zIndex": 900
+      },
+      "woman/acce/14.png": {
+        "frame": "part-387",
+        "zIndex": 750
+      },
+      "woman/acce/15.png": {
+        "frame": "part-388",
+        "zIndex": 750
+      },
+      "woman/acce/16.png": {
+        "frame": "part-389",
+        "zIndex": 750
+      },
+      "woman/acce/17.png": {
+        "frame": "part-390",
+        "zIndex": 750
+      },
+      "woman/acce/18.png": {
+        "frame": "part-391",
+        "zIndex": 750
+      },
+      "woman/acce/19.png": {
+        "frame": "part-392",
+        "zIndex": 750
+      },
+      "woman/acce/2.png": {
+        "frame": "part-393",
+        "zIndex": 900
+      },
+      "woman/acce/3.png": {
+        "frame": "part-394",
+        "zIndex": 900
+      },
+      "woman/acce/4.png": {
+        "frame": "part-395",
+        "zIndex": 900
+      },
+      "woman/acce/5.png": {
+        "frame": "part-396",
+        "zIndex": 900
+      },
+      "woman/acce/6.png": {
+        "frame": "part-397",
+        "zIndex": 900
+      },
+      "woman/acce/7.png": {
+        "frame": "part-398",
+        "zIndex": 900
+      },
+      "woman/acce/8.png": {
+        "frame": "part-399",
+        "zIndex": 900
+      },
+      "woman/acce/9.png": {
+        "frame": "part-400",
+        "zIndex": 900
+      },
+      "woman/background/0.png": {
+        "frame": "part-401",
+        "zIndex": 100
+      },
+      "woman/background/1.png": {
+        "frame": "part-402",
+        "zIndex": 100
+      },
+      "woman/background/2.png": {
+        "frame": "part-403",
+        "zIndex": 100
+      },
+      "woman/background/3.png": {
+        "frame": "part-404",
+        "zIndex": 100
+      },
+      "woman/background/4.png": {
+        "frame": "part-405",
+        "zIndex": 100
+      },
+      "woman/background/5.png": {
+        "frame": "part-406",
+        "zIndex": 100
+      },
+      "woman/background/6.png": {
+        "frame": "part-407",
+        "zIndex": 100
+      },
+      "woman/background/7.png": {
+        "frame": "part-408",
+        "zIndex": 100
+      },
+      "woman/background/8.png": {
+        "frame": "part-409",
+        "zIndex": 100
+      },
+      "woman/background/9.png": {
+        "frame": "part-410",
+        "zIndex": 100
+      },
+      "woman/body/0.png": {
+        "frame": "part-411",
+        "zIndex": 300
+      },
+      "woman/body/1.png": {
+        "frame": "part-412",
+        "zIndex": 300
+      },
+      "woman/eye/0.png": {
+        "frame": "part-413",
+        "zIndex": 500
+      },
+      "woman/eye/1.png": {
+        "frame": "part-414",
+        "zIndex": 500
+      },
+      "woman/eye/10.png": {
+        "frame": "part-415",
+        "zIndex": 500
+      },
+      "woman/eye/11.png": {
+        "frame": "part-416",
+        "zIndex": 500
+      },
+      "woman/eye/12.png": {
+        "frame": "part-417",
+        "zIndex": 500
+      },
+      "woman/eye/13.png": {
+        "frame": "part-418",
+        "zIndex": 500
+      },
+      "woman/eye/14.png": {
+        "frame": "part-419",
+        "zIndex": 500
+      },
+      "woman/eye/15.png": {
+        "frame": "part-420",
+        "zIndex": 500
+      },
+      "woman/eye/16.png": {
+        "frame": "part-421",
+        "zIndex": 500
+      },
+      "woman/eye/17.png": {
+        "frame": "part-422",
+        "zIndex": 500
+      },
+      "woman/eye/18.png": {
+        "frame": "part-423",
+        "zIndex": 500
+      },
+      "woman/eye/19.png": {
+        "frame": "part-424",
+        "zIndex": 500
+      },
+      "woman/eye/2.png": {
+        "frame": "part-425",
+        "zIndex": 500
+      },
+      "woman/eye/20.png": {
+        "frame": "part-426",
+        "zIndex": 500
+      },
+      "woman/eye/21.png": {
+        "frame": "part-427",
+        "zIndex": 500
+      },
+      "woman/eye/22.png": {
+        "frame": "part-428",
+        "zIndex": 500
+      },
+      "woman/eye/23.png": {
+        "frame": "part-429",
+        "zIndex": 500
+      },
+      "woman/eye/3.png": {
+        "frame": "part-430",
+        "zIndex": 500
+      },
+      "woman/eye/4.png": {
+        "frame": "part-431",
+        "zIndex": 500
+      },
+      "woman/eye/5.png": {
+        "frame": "part-432",
+        "zIndex": 500
+      },
+      "woman/eye/6.png": {
+        "frame": "part-433",
+        "zIndex": 500
+      },
+      "woman/eye/7.png": {
+        "frame": "part-434",
+        "zIndex": 500
+      },
+      "woman/eye/8.png": {
+        "frame": "part-435",
+        "zIndex": 500
+      },
+      "woman/eye/9.png": {
+        "frame": "part-436",
+        "zIndex": 500
+      },
+      "woman/inner/0.png": {
+        "frame": "part-437",
+        "zIndex": 600
+      },
+      "woman/inner/1.png": {
+        "frame": "part-438",
+        "zIndex": 600
+      },
+      "woman/inner/10.png": {
+        "frame": "part-439",
+        "zIndex": 600
+      },
+      "woman/inner/11.png": {
+        "frame": "part-440",
+        "zIndex": 600
+      },
+      "woman/inner/12.png": {
+        "frame": "part-441",
+        "zIndex": 600
+      },
+      "woman/inner/13.png": {
+        "frame": "part-442",
+        "zIndex": 600
+      },
+      "woman/inner/14.png": {
+        "frame": "part-443",
+        "zIndex": 600
+      },
+      "woman/inner/15.png": {
+        "frame": "part-444",
+        "zIndex": 600
+      },
+      "woman/inner/16.png": {
+        "frame": "part-445",
+        "zIndex": 600
+      },
+      "woman/inner/17.png": {
+        "frame": "part-446",
+        "zIndex": 600
+      },
+      "woman/inner/18.png": {
+        "frame": "part-447",
+        "zIndex": 600
+      },
+      "woman/inner/19.png": {
+        "frame": "part-448",
+        "zIndex": 600
+      },
+      "woman/inner/2.png": {
+        "frame": "part-449",
+        "zIndex": 600
+      },
+      "woman/inner/3.png": {
+        "frame": "part-450",
+        "zIndex": 600
+      },
+      "woman/inner/4.png": {
+        "frame": "part-451",
+        "zIndex": 600
+      },
+      "woman/inner/5.png": {
+        "frame": "part-452",
+        "zIndex": 600
+      },
+      "woman/inner/6.png": {
+        "frame": "part-453",
+        "zIndex": 600
+      },
+      "woman/inner/7.png": {
+        "frame": "part-454",
+        "zIndex": 600
+      },
+      "woman/inner/8.png": {
+        "frame": "part-455",
+        "zIndex": 600
+      },
+      "woman/inner/9.png": {
+        "frame": "part-456",
+        "zIndex": 600
+      },
+      "woman/mouth/0.png": {
+        "frame": "part-457",
+        "zIndex": 400
+      },
+      "woman/mouth/1.png": {
+        "frame": "part-458",
+        "zIndex": 400
+      },
+      "woman/mouth/10.png": {
+        "frame": "part-459",
+        "zIndex": 400
+      },
+      "woman/mouth/11.png": {
+        "frame": "part-460",
+        "zIndex": 400
+      },
+      "woman/mouth/12.png": {
+        "frame": "part-461",
+        "zIndex": 400
+      },
+      "woman/mouth/13.png": {
+        "frame": "part-462",
+        "zIndex": 400
+      },
+      "woman/mouth/14.png": {
+        "frame": "part-463",
+        "zIndex": 400
+      },
+      "woman/mouth/15.png": {
+        "frame": "part-464",
+        "zIndex": 400
+      },
+      "woman/mouth/16.png": {
+        "frame": "part-465",
+        "zIndex": 400
+      },
+      "woman/mouth/17.png": {
+        "frame": "part-466",
+        "zIndex": 400
+      },
+      "woman/mouth/2.png": {
+        "frame": "part-467",
+        "zIndex": 400
+      },
+      "woman/mouth/3.png": {
+        "frame": "part-468",
+        "zIndex": 400
+      },
+      "woman/mouth/4.png": {
+        "frame": "part-469",
+        "zIndex": 400
+      },
+      "woman/mouth/5.png": {
+        "frame": "part-470",
+        "zIndex": 400
+      },
+      "woman/mouth/6.png": {
+        "frame": "part-471",
+        "zIndex": 400
+      },
+      "woman/mouth/7.png": {
+        "frame": "part-472",
+        "zIndex": 400
+      },
+      "woman/mouth/8.png": {
+        "frame": "part-473",
+        "zIndex": 400
+      },
+      "woman/mouth/9.png": {
+        "frame": "part-474",
+        "zIndex": 400
+      },
+      "woman/onepiece/0.png": {
+        "frame": "part-475",
+        "zIndex": 600
+      },
+      "woman/outer/0.png": {
+        "frame": "part-476",
+        "zIndex": 700
+      },
+      "woman/outer/1.png": {
+        "frame": "part-477",
+        "zIndex": 700
+      },
+      "woman/outer/10.png": {
+        "frame": "part-478",
+        "zIndex": 700
+      },
+      "woman/outer/2.png": {
+        "frame": "part-479",
+        "zIndex": 700
+      },
+      "woman/outer/3.png": {
+        "frame": "part-480",
+        "zIndex": 700
+      },
+      "woman/outer/4.png": {
+        "frame": "part-481",
+        "zIndex": 700
+      },
+      "woman/outer/5.png": {
+        "frame": "part-482",
+        "zIndex": 700
+      },
+      "woman/outer/6.png": {
+        "frame": "part-483",
+        "zIndex": 700
+      },
+      "woman/outer/7.png": {
+        "frame": "part-484",
+        "zIndex": 700
+      },
+      "woman/outer/8.png": {
+        "frame": "part-485",
+        "zIndex": 700
+      },
+      "woman/outer/9.png": {
+        "frame": "part-486",
+        "zIndex": 700
+      },
+      "woman/back_hair/black/0.png": {
+        "frame": "part-521",
+        "zIndex": 200
+      },
+      "woman/back_hair/black/1.png": {
+        "frame": "part-522",
+        "zIndex": 200
+      },
+      "woman/back_hair/black/2.png": {
+        "frame": "part-523",
+        "zIndex": 200
+      },
+      "woman/back_hair/black/3.png": {
+        "frame": "part-524",
+        "zIndex": 200
+      },
+      "woman/back_hair/black/4.png": {
+        "frame": "part-525",
+        "zIndex": 200
+      },
+      "woman/back_hair/black/5.png": {
+        "frame": "part-526",
+        "zIndex": 200
+      },
+      "woman/back_hair/black/6.png": {
+        "frame": "part-527",
+        "zIndex": 200
+      },
+      "woman/back_hair/black/7.png": {
+        "frame": "part-528",
+        "zIndex": 200
+      },
+      "woman/back_hair/black/8.png": {
+        "frame": "part-529",
+        "zIndex": 200
+      },
+      "woman/back_hair/half/0.png": {
+        "frame": "part-530",
+        "zIndex": 200
+      },
+      "woman/back_hair/white/0.png": {
+        "frame": "part-531",
+        "zIndex": 200
+      },
+      "woman/back_hair/white/1.png": {
+        "frame": "part-532",
+        "zIndex": 200
+      },
+      "woman/back_hair/white/2.png": {
+        "frame": "part-533",
+        "zIndex": 200
+      },
+      "woman/back_hair/white/3.png": {
+        "frame": "part-534",
+        "zIndex": 200
+      },
+      "woman/back_hair/white/4.png": {
+        "frame": "part-535",
+        "zIndex": 200
+      },
+      "woman/back_hair/white/5.png": {
+        "frame": "part-536",
+        "zIndex": 200
+      },
+      "woman/back_hair/white/6.png": {
+        "frame": "part-537",
+        "zIndex": 200
+      },
+      "woman/back_hair/white/7.png": {
+        "frame": "part-538",
+        "zIndex": 200
+      },
+      "woman/back_hair/white/8.png": {
+        "frame": "part-539",
+        "zIndex": 200
+      },
+      "woman/hair/black/0.png": {
+        "frame": "part-540",
+        "zIndex": 800
+      },
+      "woman/hair/black/1.png": {
+        "frame": "part-541",
+        "zIndex": 800
+      },
+      "woman/hair/black/2.png": {
+        "frame": "part-542",
+        "zIndex": 800
+      },
+      "woman/hair/black/3.png": {
+        "frame": "part-543",
+        "zIndex": 800
+      },
+      "woman/hair/black/4.png": {
+        "frame": "part-544",
+        "zIndex": 800
+      },
+      "woman/hair/black/5.png": {
+        "frame": "part-545",
+        "zIndex": 800
+      },
+      "woman/hair/black/6.png": {
+        "frame": "part-546",
+        "zIndex": 800
+      },
+      "woman/hair/black/7.png": {
+        "frame": "part-547",
+        "zIndex": 800
+      },
+      "woman/hair/black/8.png": {
+        "frame": "part-548",
+        "zIndex": 800
+      },
+      "woman/hair/black/9.png": {
+        "frame": "part-549",
+        "zIndex": 800
+      },
+      "woman/hair/half/0.png": {
+        "frame": "part-550",
+        "zIndex": 800
+      },
+      "woman/hair/white/0.png": {
+        "frame": "part-551",
+        "zIndex": 800
+      },
+      "woman/hair/white/1.png": {
+        "frame": "part-552",
+        "zIndex": 800
+      },
+      "woman/hair/white/2.png": {
+        "frame": "part-553",
+        "zIndex": 800
+      },
+      "woman/hair/white/3.png": {
+        "frame": "part-554",
+        "zIndex": 800
+      },
+      "woman/hair/white/4.png": {
+        "frame": "part-555",
+        "zIndex": 800
+      },
+      "woman/hair/white/5.png": {
+        "frame": "part-556",
+        "zIndex": 800
+      },
+      "woman/hair/white/6.png": {
+        "frame": "part-557",
+        "zIndex": 800
+      },
+      "woman/hair/white/7.png": {
+        "frame": "part-558",
+        "zIndex": 800
+      },
+      "woman/hair/white/8.png": {
+        "frame": "part-559",
+        "zIndex": 800
+      },
+      "woman/hair/white/9.png": {
+        "frame": "part-560",
+        "zIndex": 800
+      },
+      "woman/hair/whole/0.png": {
+        "frame": "part-561",
+        "zIndex": 800
+      },
+      "woman/hair/whole/1.png": {
+        "frame": "part-562",
+        "zIndex": 800
+      }
+    }
+  }
+}

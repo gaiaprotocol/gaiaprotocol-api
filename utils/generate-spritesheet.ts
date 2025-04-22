@@ -93,7 +93,7 @@ const keyToPart: {
   };
 } = {};
 
-const keyToSpritesheet: {
+const keyToSprite: {
   [type: string]: {
     [gender: string]: {
       [filename: string]: {
@@ -204,33 +204,33 @@ async function processImages() {
 
       const s = key.split("/");
       const type = StringUtils.capitalize(s[0]);
-      if (!keyToSpritesheet[type]) {
-        keyToSpritesheet[type] = {};
+      if (!keyToSprite[type]) {
+        keyToSprite[type] = {};
       }
 
       let gender = StringUtils.capitalize(s[1]);
       if (gender === "Background.png") {
         gender = "Man";
-        if (!keyToSpritesheet[type][gender]) {
-          keyToSpritesheet[type][gender] = {};
+        if (!keyToSprite[type][gender]) {
+          keyToSprite[type][gender] = {};
         }
-        keyToSpritesheet[type][gender][s.slice(1).join("/")] = {
+        keyToSprite[type][gender][s.slice(1).join("/")] = {
           frame: frameId,
           zIndex: part.zIndex,
         };
         gender = "Woman";
-        if (!keyToSpritesheet[type][gender]) {
-          keyToSpritesheet[type][gender] = {};
+        if (!keyToSprite[type][gender]) {
+          keyToSprite[type][gender] = {};
         }
-        keyToSpritesheet[type][gender][s.slice(1).join("/")] = {
+        keyToSprite[type][gender][s.slice(1).join("/")] = {
           frame: frameId,
           zIndex: part.zIndex,
         };
       } else {
-        if (!keyToSpritesheet[type][gender]) {
-          keyToSpritesheet[type][gender] = {};
+        if (!keyToSprite[type][gender]) {
+          keyToSprite[type][gender] = {};
         }
-        keyToSpritesheet[type][gender][s.slice(1).join("/")] = {
+        keyToSprite[type][gender][s.slice(1).join("/")] = {
           frame: frameId,
           zIndex: part.zIndex,
         };
@@ -243,8 +243,8 @@ async function processImages() {
     );
 
     fs.writeFileSync(
-      path.join(outputPath, "key-to-spritesheet.json"),
-      JSON.stringify(keyToSpritesheet, null, 2),
+      path.join(outputPath, "key-to-sprite.json"),
+      JSON.stringify(keyToSprite, null, 2),
     );
 
     console.log("All files have been processed and saved.");
