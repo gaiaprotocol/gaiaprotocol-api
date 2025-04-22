@@ -1,3 +1,4 @@
+import { StringUtils } from "@commonmodule/ts";
 import fs from "fs";
 import path from "path";
 import sharp, { Metadata } from "sharp";
@@ -19,7 +20,6 @@ import waterManParts from "./parts-jsons/water-man-parts.json" with {
 import waterWomanParts from "./parts-jsons/water-woman-parts.json" with {
   type: "json",
 };
-import { StringUtils } from "@commonmodule/ts";
 
 interface SpritesheetData {
   frames: {
@@ -37,7 +37,7 @@ interface SpritesheetData {
   };
 }
 
-const orders: { [path: string]: number } = {};
+const availableFiles: { [path: string]: boolean } = {};
 for (
   const p of [
     ...stoneManParts,
@@ -47,7 +47,7 @@ for (
   for (const part of p.parts) {
     if (part.images) {
       for (const frame of part.images) {
-        orders["stone/" + frame.path] = frame.order;
+        availableFiles["stone/" + frame.path] = true;
       }
     }
   }
@@ -61,7 +61,7 @@ for (
   for (const part of p.parts) {
     if (part.images) {
       for (const frame of part.images) {
-        orders["fire/" + frame.path] = frame.order;
+        availableFiles["fire/" + frame.path] = true;
       }
     }
   }
@@ -75,7 +75,7 @@ for (
   for (const part of p.parts) {
     if (part.images) {
       for (const frame of part.images) {
-        orders["water/" + frame.path] = frame.order;
+        availableFiles["water/" + frame.path] = true;
       }
     }
   }
@@ -85,23 +85,9 @@ const directoryPath = "./parts-images-resized";
 const outputPath = "./spritesheet";
 const spritesheets: string[] = [];
 
-const keyToPart: {
-  [filename: string]: {
-    row: number;
-    col: number;
-    zIndex: number;
-  };
-} = {};
-
-const keyToSprite: {
-  [type: string]: {
-    [gender: string]: {
-      [filename: string]: {
-        frame: string;
-        zIndex: number;
-      };
-    };
-  };
+const keyToPart: { [filename: string]: { row: number; col: number } } = {};
+const keyToFrame: {
+  [type: string]: { [gender: string]: { [filename: string]: string } };
 } = {};
 
 const partSize = 128;
@@ -128,11 +114,7 @@ async function createSpritesheetImage(
     const row = Math.floor(index / tilesPerRow);
     const col = index % tilesPerRow;
     const fileId = file.split("/").slice(1).join("/");
-    keyToPart[fileId] = {
-      row,
-      col,
-      zIndex: orders[fileId],
-    };
+    keyToPart[fileId] = { row, col };
     return {
       input: file,
       top: row * partSize,
@@ -163,7 +145,7 @@ async function processImages() {
     const files = fs.readdirSync(directoryPath, { recursive: true });
     for (const file of files) {
       if (typeof file === "string") {
-        if (orders[file] !== undefined) {
+        if (availableFiles[file]) {
           const sharpImage = sharp(path.join(directoryPath, file));
           const metadata = await sharpImage.metadata();
           metadataMap.set(file, metadata);
@@ -204,36 +186,21 @@ async function processImages() {
 
       const s = key.split("/");
       const type = StringUtils.capitalize(s[0]);
-      if (!keyToSprite[type]) {
-        keyToSprite[type] = {};
+      if (!keyToFrame[type]) {
+        keyToFrame[type] = {};
       }
 
       let gender = StringUtils.capitalize(s[1]);
       if (gender === "Background.png") {
         gender = "Man";
-        if (!keyToSprite[type][gender]) {
-          keyToSprite[type][gender] = {};
-        }
-        keyToSprite[type][gender][s.slice(1).join("/")] = {
-          frame: frameId,
-          zIndex: part.zIndex,
-        };
+        if (!keyToFrame[type][gender]) keyToFrame[type][gender] = {};
+        keyToFrame[type][gender][s.slice(1).join("/")] = frameId;
         gender = "Woman";
-        if (!keyToSprite[type][gender]) {
-          keyToSprite[type][gender] = {};
-        }
-        keyToSprite[type][gender][s.slice(1).join("/")] = {
-          frame: frameId,
-          zIndex: part.zIndex,
-        };
+        if (!keyToFrame[type][gender]) keyToFrame[type][gender] = {};
+        keyToFrame[type][gender][s.slice(1).join("/")] = frameId;
       } else {
-        if (!keyToSprite[type][gender]) {
-          keyToSprite[type][gender] = {};
-        }
-        keyToSprite[type][gender][s.slice(1).join("/")] = {
-          frame: frameId,
-          zIndex: part.zIndex,
-        };
+        if (!keyToFrame[type][gender]) keyToFrame[type][gender] = {};
+        keyToFrame[type][gender][s.slice(1).join("/")] = frameId;
       }
     }
 
@@ -243,8 +210,8 @@ async function processImages() {
     );
 
     fs.writeFileSync(
-      path.join(outputPath, "key-to-sprite.json"),
-      JSON.stringify(keyToSprite, null, 2),
+      path.join(outputPath, "key-to-frame.json"),
+      JSON.stringify(keyToFrame, null, 2),
     );
 
     console.log("All files have been processed and saved.");
