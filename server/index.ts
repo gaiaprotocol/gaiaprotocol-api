@@ -1,48 +1,4 @@
-import UPNG from "upng-js";
-
-function blendPixel(
-	bgR: number,
-	bgG: number,
-	bgB: number,
-	bgA: number,
-	fgR: number,
-	fgG: number,
-	fgB: number,
-	fgA: number,
-): [number, number, number, number] {
-	const alphaF = fgA / 255;
-	const alphaB = bgA / 255;
-	const outA = alphaF + alphaB * (1 - alphaF);
-	if (outA < 1e-6) return [0, 0, 0, 0];
-
-	const outR = Math.round((fgR * alphaF + bgR * alphaB * (1 - alphaF)) / outA);
-	const outG = Math.round((fgG * alphaF + bgG * alphaB * (1 - alphaF)) / outA);
-	const outB = Math.round((fgB * alphaF + bgB * alphaB * (1 - alphaF)) / outA);
-	const outAlpha = Math.round(outA * 255);
-	return [outR, outG, outB, outAlpha];
-}
-
-function blendImage(base: Uint8Array, overlay: Uint8Array) {
-	for (let i = 0; i < base.length; i += 4) {
-		const [bgR, bgG, bgB, bgA] = [
-			base[i],
-			base[i + 1],
-			base[i + 2],
-			base[i + 3],
-		];
-		const [fgR, fgG, fgB, fgA] = [
-			overlay[i],
-			overlay[i + 1],
-			overlay[i + 2],
-			overlay[i + 3],
-		];
-		const [r, g, b, a] = blendPixel(bgR, bgG, bgB, bgA, fgR, fgG, fgB, fgA);
-		base[i] = r;
-		base[i + 1] = g;
-		base[i + 2] = b;
-		base[i + 3] = a;
-	}
-}
+import { ImageCombiner } from "@commonmodule/image-combiner";
 
 export default {
 	async fetch(request, env, ctx): Promise<Response> {
@@ -69,32 +25,10 @@ export default {
 					respHead.arrayBuffer(),
 				]);
 
-				const pngBg = UPNG.decode(imgBgBuf);
-				const pngBody = UPNG.decode(imgBodyBuf);
-				const pngHead = UPNG.decode(imgHeadBuf);
-
-				const rgbaBg = UPNG.toRGBA8(pngBg)[0];
-				const rgbaBody = UPNG.toRGBA8(pngBody)[0];
-				const rgbaHead = UPNG.toRGBA8(pngHead)[0];
-
-				const width = pngBg.width, height = pngBg.height;
-				if (
-					pngBody.width !== width || pngBody.height !== height ||
-					pngHead.width !== width || pngHead.height !== height
-				) {
-					throw new Error(
-						"Images have different sizes - implement resize logic if needed.",
-					);
-				}
-
-				const composite = new Uint8Array(rgbaBg);
-
-				blendImage(composite, new Uint8Array(rgbaBody));
-				blendImage(composite, new Uint8Array(rgbaHead));
-
-				const outBuffer = UPNG.encode([composite.buffer], width, height, 0);
-
-				await env.GOD_IMAGES_BUCKET.put("test.png", outBuffer);
+				await env.GOD_IMAGES_BUCKET.put(
+					"test.png",
+					ImageCombiner.combine([imgBgBuf, imgBodyBuf, imgHeadBuf]),
+				);
 
 				return new Response("ok", { status: 200 });
 			} catch (err) {
