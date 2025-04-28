@@ -41,8 +41,7 @@ export default {
   <image href="data:image/png;base64,${bgB64}" x="0" y="0" width="1024" height="1024" />
   <image href="data:image/png;base64,${bodyB64}" x="0" y="0" width="1024" height="1024" />
   <image href="data:image/png;base64,${headB64}" x="0" y="0" width="1024" height="1024" />
-</svg>
-				`.trim();
+</svg>`.trim();
 
 				const resvg = new Resvg(
 					svg,
@@ -52,7 +51,10 @@ export default {
 
 				await env.GOD_IMAGES_BUCKET.put("test.png", png);
 
-				return new Response("ok", { status: 200 });
+				return new Response(png, {
+					status: 200,
+					headers: { "Content-Type": "image/png" },
+				});
 			} catch (err) {
 				console.error(err);
 				return new Response(`Error: ${err}`, { status: 500 });
