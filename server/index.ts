@@ -1,4 +1,14 @@
-import { ImageCombiner } from "@commonmodule/image-combiner";
+import { Resvg } from "@cf-wasm/resvg";
+
+function arrayBufferToBase64(buffer: ArrayBuffer): string {
+	let binary = "";
+	const bytes = new Uint8Array(buffer);
+	const len = bytes.byteLength;
+	for (let i = 0; i < len; i++) {
+		binary += String.fromCharCode(bytes[i]);
+	}
+	return btoa(binary);
+}
 
 export default {
 	async fetch(request, env, ctx): Promise<Response> {
@@ -6,8 +16,6 @@ export default {
 
 		if (url.pathname === "/test") {
 			try {
-				console.time("fetch");
-
 				const bgUrl = new URL("/test/background.png", request.url);
 				const bodyUrl = new URL("/test/body.png", request.url);
 				const headUrl = new URL("/test/head.png", request.url);
@@ -21,24 +29,28 @@ export default {
 					throw new Error("Failed to fetch images from ASSETS");
 				}
 
-				console.timeEnd("fetch");
-				console.time("arrayBuffer");
-
-				const [imgBgBuf, imgBodyBuf, imgHeadBuf] = await Promise.all([
-					respBg.arrayBuffer(),
-					respBody.arrayBuffer(),
-					respHead.arrayBuffer(),
-				]);
-
-				console.timeEnd("arrayBuffer");
-				console.time("combine");
-
-				await env.GOD_IMAGES_BUCKET.put(
-					"test.png",
-					ImageCombiner.combine([imgBgBuf, imgBodyBuf, imgHeadBuf]),
+				const [bgB64, bodyB64, headB64] = await Promise.all(
+					[respBg, respBody, respHead].map(async (r) => {
+						const buf = await r.arrayBuffer();
+						return arrayBufferToBase64(buf);
+					}),
 				);
 
-				console.timeEnd("combine");
+				const svg = `
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <image href="data:image/png;base64,${bgB64}" x="0" y="0" width="1024" height="1024" />
+  <image href="data:image/png;base64,${bodyB64}" x="0" y="0" width="1024" height="1024" />
+  <image href="data:image/png;base64,${headB64}" x="0" y="0" width="1024" height="1024" />
+</svg>
+				`.trim();
+
+				const resvg = new Resvg(
+					svg,
+					{ fitTo: { mode: "width", value: 1024 } },
+				);
+				const png = resvg.render().asPng();
+
+				await env.GOD_IMAGES_BUCKET.put("test.png", png);
 
 				return new Response("ok", { status: 200 });
 			} catch (err) {
