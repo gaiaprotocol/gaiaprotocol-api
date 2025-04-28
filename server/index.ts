@@ -6,6 +6,8 @@ export default {
 
 		if (url.pathname === "/test") {
 			try {
+				console.time("fetch");
+
 				const bgUrl = new URL("/test/background.png", request.url);
 				const bodyUrl = new URL("/test/body.png", request.url);
 				const headUrl = new URL("/test/head.png", request.url);
@@ -19,16 +21,24 @@ export default {
 					throw new Error("Failed to fetch images from ASSETS");
 				}
 
+				console.timeEnd("fetch");
+				console.time("arrayBuffer");
+
 				const [imgBgBuf, imgBodyBuf, imgHeadBuf] = await Promise.all([
 					respBg.arrayBuffer(),
 					respBody.arrayBuffer(),
 					respHead.arrayBuffer(),
 				]);
 
+				console.timeEnd("arrayBuffer");
+				console.time("combine");
+
 				await env.GOD_IMAGES_BUCKET.put(
 					"test.png",
 					ImageCombiner.combine([imgBgBuf, imgBodyBuf, imgHeadBuf]),
 				);
+
+				console.timeEnd("combine");
 
 				return new Response("ok", { status: 200 });
 			} catch (err) {
