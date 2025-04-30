@@ -17,6 +17,6 @@
 		"wrangler": "^4.10.0"
 	},
 	"dependencies": {
-		"@commonmodule/image-combiner-cf": "^0.0.3"
+		"@commonmodule/image-combiner-cf": "^0.0.4"
 	}
 }
